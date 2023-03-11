@@ -1,0 +1,142 @@
+[
+    {
+        "Name": "Tanima Mondal ",
+        "Email": "mtanima14@gmail.com",
+        "dateOfStart": "Jan 2, 2020",
+        "position": "PhD Scholar, Physics (PMRF)",
+        "interests": "High Energy Astrophysics",
+        "photo": "./assets/img/mtanima.jpg",
+        "ResearchGate": "https://www.researchgate.net/profile/Tanima_Mondal/research",
+        "webpage": "https://tanima14.github.io/mtanima.github.io/"
+    },
+    {
+        "Name": "Shainee Hazra",
+        "Email": "shaineehz13@gmail.com",
+        "dateOfStart": "Jan 2, 2018",
+        "position": "PhD Scholar, Physics",
+        "interests": "First principal calculation in strongly correlated system, DFT",
+        "photo": "./assets/img/shainee.jpg",
+        "ResearchGate": "https://www.researchgate.net/profile/Shainee-Hazra "
+    },
+    {
+        "Name": "Sabyasachi Chakraborty",
+        "Email": "sabyasachi.sch@gmail.com",
+        "dateOfStart": "Aug 1, 2022",
+        "position": "PhD Scholar, Physics",
+        "interests": "Quantum Computation",
+        "photo": "./assets/img/SabyasachiChakraborty.jpg"
+    },
+    {
+        "Name": "Hari Sadhan Ghosh ",
+        "Email": "harisadhanghosh4@gmail.com ",
+        "dateOfStart": "Aug 2, 2021",
+        "position": "PhD Scholar, Physics (PMRF)",
+        "interests": "Bose-Einstein Condensation, Quantum Optics ",
+        "photo": "./assets/img/harisadhanghosh.jpg"
+    },
+    {
+        "Name": "Harshdeep Singh",
+        "Email": "harshdeeps036@gmail.com",
+        "dateOfStart": "Aug 2, 2021",
+        "position": "PhD Scholar, CCDS (PMRF)",
+        "interests": "Quantum Computing",
+        "photo": "./assets/img/HarshdeepSingh.jpeg"
+    },
+    {
+        "Name": "Arpana Saboo",
+        "Email": "arpana.saboo@gmail.com",
+        "dateOfStart": "Sep 8, 2020",
+        "position": "PhD Scholar, Physics (PMRF)",
+        "interests": "Ultracold atoms, Spinor BECs",
+        "photo": "./assets/img/ArpanaSaboo.jpeg",
+        "webpage": "https://arpanasaboo.github.io/site"
+    },
+    {
+        "Name": "Anirban Ghosh",
+        "Email": "anirbaniitkgp1@gmail.com",
+        "dateOfStart": "Jun 1, 2019",
+        "position": "PhD Scholar, Physics (IIT Kharagpur and University of Melbourne)",
+        "interests": "Topological phases of simple lattice models, Quench dynamics of Topological systems, Non Hermitian PT-symmetric Topological systems",
+        "photo": "./assets/img/ANIRBANGHOSH.JPG"
+    },
+    {
+        "Name": "Soumyadeep Halder",
+        "Email": "soumya.hhs@gmail.com",
+        "dateOfStart": "Jan 1, 2019",
+        "position": "PhD Scholar, Physics",
+        "interests": "Ultracold quantum gases",
+        "GoogleScholar": "https://scholar.google.com/citations?user=ZjUSjNgAAAAJ&amp;hl=en",
+        "ResearchGate": "https://www.researchgate.net/profile/Soumyadeep-Halder-4",
+        "photo": "./assets/img/soumya.jpg"
+    },
+    {
+        "Name": "Subrata Das",
+        "Email": "subratappt@gmail.com",
+        "dateOfStart": "Jul 12, 2016",
+        "position": "",
+        "interests": "Bose-Einstein condensate, Quantum Turbulence",
+        "photo": "./assets/img/subrataDas.png",
+        "ResearchGate": "https://www.researchgate.net/profile/Subrata-Das-11",
+        "GoogleScholar": "https://scholar.google.com/citations?user=PvcLNcIAAAAJ&hl=en",
+        "graduated": "yes",
+        "dateOfCompletion": "Dec 19, 2022"
+    },
+    {
+        "Name": "Rohit Kishan Ray",
+        "Email": "rohitkishanray@gmail.com",
+        "dateOfStart": "Jul 12, 2016",
+        "position": "PhD Scholar, Physics",
+        "interests": "Quantum Thermodynamics, Quantum Information and Quantun Foundation ",
+        "photo": "./assets/img/rkr.jpg"
+    },
+    {
+        "Name": "Swapan Biswas",
+        "Email": "biswas.swapan25@gmail.com",
+        "dateOfStart": "Jun 1, 2016",
+        "position": "Visiting Research Scholar (Vidysagar University), Assistant Teacher",
+        "interests": "Atomic physics, quantum physics",
+        "ResearchGate": "https://www.researchgate.net/publication/323410491_Accurate_estimations_of_electromagnetic_transitions_of_Sn_IV_for_stellar_and_interstellar_media",
+        "photo": "./assets/img/male.png",
+        "Visitor": "yes"
+    },
+    {
+        "Name": "Koushik Mukherjee ",
+        "Email": "koushikphysics21@gmail.com",
+        "dateOfStart": "Jul 1, 2015",
+        "graduated": "yes",
+        "dateOfCompletion": "Jul 22, 2021",
+        "position": "Postdoc, Lund University, Sweden",
+        "interests": "Supersolid, few-body physics, BEC",
+        "photo": "./assets/img/KKM.png"
+    },
+    {
+        "Name": "Arghya Das",
+        "Email": "arghyadas.1988@gmail.com",
+        "dateOfStart": "Jul 1, 2013",
+        "graduated": "yes",
+        "dateOfCompletion": "Dec 1, 2021",
+        "position": "Assistant Teacher",
+        "interests": "Atomic, Molecular &amp; Optical Physics",
+        "photo": "./assets/img/arghyaDas.png"
+    },
+    {
+        "Name": "Anal Bhowmik ",
+        "Email": "ab.physics2003@gmail.com",
+        "dateOfStart": "Jul 1, 2013",
+        "graduated": "yes",
+        "dateOfCompletion": "Oct 1, 2018",
+        "position": "Postdoc, University of Haifa, Israel",
+        "interests": "Quantum gases, Optical vortex, Many-electron theory",
+        "photo": "./assets/img/ab2.jpg"
+    },
+    {
+        "Name": "Narendra Nath Dutta",
+        "Email": "narendra.dutta39@gmail.com",
+        "dateOfStart": "Jul 1, 2009",
+        "graduated": "yes",
+        "dateOfCompletion": "Oct 1, 2014",
+        "position": "Assistant Professor, ViT-AP University, India",
+        "interests": "Theoretical Atomic and Molecular Physics, Spectroscopy, Quantum Chemistry, Computational Chemistry",
+        "photo": "./assets/img/NarendraNathDutta.png"
+    }
+]
