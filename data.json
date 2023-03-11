@@ -32,6 +32,7 @@
         "dateOfStart": "Aug 2, 2021",
         "position": "PhD Scholar, Physics (PMRF)",
         "interests": "Bose-Einstein Condensation, Quantum Optics ",
+        "ResearchGate": "https://www.researchgate.net/profile/Hari-Ghosh",
         "photo": "./assets/img/harisadhanghosh.jpg"
     },
     {
@@ -40,6 +41,7 @@
         "dateOfStart": "Aug 2, 2021",
         "position": "PhD Scholar, CCDS (PMRF)",
         "interests": "Quantum Computing",
+        "ResearchGate": "https://www.researchgate.net/profile/Harshdeep-Singh-24",
         "photo": "./assets/img/HarshdeepSingh.jpeg"
     },
     {
@@ -49,6 +51,8 @@
         "position": "PhD Scholar, Physics (PMRF)",
         "interests": "Ultracold atoms, Spinor BECs",
         "photo": "./assets/img/ArpanaSaboo.jpeg",
+        "ResearchGate": "https://www.researchgate.net/profile/Arpana-Saboo",
+        "GoogleScholar": "https://scholar.google.com/citations?user=MxF3nWEAAAAJ&hl=en",
         "webpage": "https://arpanasaboo.github.io/site"
     },
     {
@@ -57,6 +61,7 @@
         "dateOfStart": "Jun 1, 2019",
         "position": "PhD Scholar, Physics (IIT Kharagpur and University of Melbourne)",
         "interests": "Topological phases of simple lattice models, Quench dynamics of Topological systems, Non Hermitian PT-symmetric Topological systems",
+        "ResearchGate": "https://www.researchgate.net/profile/Anirban-Ghosh-46",
         "photo": "./assets/img/ANIRBANGHOSH.JPG"
     },
     {
@@ -65,15 +70,15 @@
         "dateOfStart": "Jan 1, 2019",
         "position": "PhD Scholar, Physics",
         "interests": "Ultracold quantum gases",
-        "GoogleScholar": "https://scholar.google.com/citations?user=ZjUSjNgAAAAJ&amp;hl=en",
         "ResearchGate": "https://www.researchgate.net/profile/Soumyadeep-Halder-4",
+        "GoogleScholar": "https://scholar.google.com/citations?user=ZjUSjNgAAAAJ&amp;hl=en",
         "photo": "./assets/img/soumya.jpg"
     },
     {
         "Name": "Subrata Das",
         "Email": "subratappt@gmail.com",
         "dateOfStart": "Jul 12, 2016",
-        "position": "",
+        "position": "Postdoc, Virginia Tech, USA",
         "interests": "Bose-Einstein condensate, Quantum Turbulence",
         "photo": "./assets/img/subrataDas.png",
         "ResearchGate": "https://www.researchgate.net/profile/Subrata-Das-11",
@@ -87,6 +92,8 @@
         "dateOfStart": "Jul 12, 2016",
         "position": "PhD Scholar, Physics",
         "interests": "Quantum Thermodynamics, Quantum Information and Quantun Foundation ",
+        "ResearchGate": "https://www.researchgate.net/profile/Rohit-Ray",
+        "GoogleScholar": "https://scholar.google.com/citations?hl=en&user=PG4ufAsAAAAJ",
         "photo": "./assets/img/rkr.jpg"
     },
     {
@@ -107,6 +114,8 @@
         "dateOfCompletion": "Jul 22, 2021",
         "position": "Postdoc, Lund University, Sweden",
         "interests": "Supersolid, few-body physics, BEC",
+        "ResearchGate": "https://www.researchgate.net/profile/Koushik-Mukherjee-3",
+        "GoogleScholar": "https://scholar.google.com/citations?user=fvOrnlUAAAAJ&hl=en",
         "photo": "./assets/img/KKM.png"
     },
     {
@@ -117,6 +126,8 @@
         "dateOfCompletion": "Dec 1, 2021",
         "position": "Assistant Teacher",
         "interests": "Atomic, Molecular &amp; Optical Physics",
+        "ResearchGate": "https://www.researchgate.net/profile/Arghya-Das-9",
+        "GoogleScholar": "https://scholar.google.com/citations?user=VhxGUzkAAAAJ&hl=en",
         "photo": "./assets/img/arghyaDas.png"
     },
     {
@@ -127,6 +138,8 @@
         "dateOfCompletion": "Oct 1, 2018",
         "position": "Postdoc, University of Haifa, Israel",
         "interests": "Quantum gases, Optical vortex, Many-electron theory",
+        "ResearchGate": "https://www.researchgate.net/profile/Anal-Bhowmik",
+        "GoogleScholar": "https://scholar.google.com/citations?user=-pKtX9QAAAAJ&hl=en",
         "photo": "./assets/img/ab2.jpg"
     },
     {
@@ -137,6 +150,8 @@
         "dateOfCompletion": "Oct 1, 2014",
         "position": "Assistant Professor, ViT-AP University, India",
         "interests": "Theoretical Atomic and Molecular Physics, Spectroscopy, Quantum Chemistry, Computational Chemistry",
+        "ResearchGate": "https://www.researchgate.net/profile/Narendra-Dutta-2",
+        "GoogleScholar": "https://scholar.google.com/citations?user=TgyXV4UAAAAJ&hl=en",
         "photo": "./assets/img/NarendraNathDutta.png"
     }
 ]
