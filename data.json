@@ -143,6 +143,18 @@
         "photo": "./assets/img/ab2.jpg"
     },
     {
+        "Name": "Pradip Kumar Mondal",
+        "Email": "pmondal3@gmail.com",
+        "dateOfStart": "Jul 1, 2012",
+        "graduated": "yes",
+        "dateOfCompletion": "Oct 1, 2017",
+        "position": "Assistant Professor, Uluberia College, India",
+        "interests": "Theoretical Physics, Quantum Physics, Atomic, Molecular and Optical Physics",
+        "ResearchGate": "https://www.researchgate.net/profile/Pradip-Mondal-7",
+        "GoogleScholar": "https://scholar.google.co.in/citations?user=f3dduf8AAAAJ&hl=en",
+        "photo": "./assets/img/PradipKumarMondal.jpg"
+    },
+    {
         "Name": "Narendra Nath Dutta",
         "Email": "narendra.dutta39@gmail.com",
         "dateOfStart": "Jul 1, 2009",
