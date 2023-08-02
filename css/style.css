@@ -25,20 +25,20 @@ body {
 }
 
 .bg-present-card {
-  background-color: rgb(210, 210, 210);
+  background-color: rgb(204, 204, 204);
 }
 
 .bg-former-card {
-  background-color: rgb(192, 213, 222);
+  background-color: rgb(255, 255, 255);
 }
 
 .bg-present {
-  background-color: rgb(57, 58, 61);
+  background-color: rgb(255, 255, 255);
 }
 
 
 .bg-former {
-  background-color: rgb(59, 78, 86);
+  background-color: rgb(219, 219, 219);
 }
 
 .text-email {
@@ -60,17 +60,19 @@ body {
 
 .bg-intro-topics {
   content: "";
-  background: linear-gradient(rgba(10, 20, 23, 0.6), rgba(10, 20, 23, 0.7)), url("../assets/img/backgrounds/bg2.png") no-repeat center center/cover;
+  background-color: #c9cdd2;
+  /* background: linear-gradient(rgba(10, 20, 23, 0.6), rgba(10, 20, 23, 0.7)), url("../assets/img/backgrounds/bg2.png") no-repeat center center/cover; */
 }
 
 .bg-group {
   content: "";
-  background: linear-gradient(rgba(10, 20, 23, 0.6), rgba(10, 20, 23, 0.7)), url("../assets/img/backgrounds/bg2.png") no-repeat center center/cover;
+  background-color: #c9cdd2;
+  /* background: linear-gradient(rgba(10, 20, 23, 0.6), rgba(10, 20, 23, 0.7)), url("../assets/img/backgrounds/bg2.png") no-repeat center center/cover; */
 }
 
 .topics-info {
   content: "";
-  background: linear-gradient(rgba(10, 20, 23, 0.6), rgba(10, 20, 23, 0.6));
+  background: linear-gradient(rgba(105, 113, 116, 0.6), rgba(10, 20, 23, 0.6));
   border-radius: 20px
 }
 
