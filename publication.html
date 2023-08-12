@@ -17,35 +17,6 @@
             text-align: center;
             padding: 1em;
         }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            position:  absolute;
-            padding: 10px 10px 0px 10px;
-            bottom: 0;
-            width: 100%;
-            /* Height of the footer*/
-            height: 40px;
-        }
-        .container {
-            display: flex;
-            justify-content: space-between;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2em;
-        }
-        .column {
-            flex: 1;
-            margin: 0 1em;
-        }
-        .column h3 {
-            margin-bottom: 0.5em;
-        }
-        .column p {
-            font-size: 14px;
-        }
         .year {
             font-size: 25px;
             margin-top: 20px;
@@ -81,10 +52,10 @@
     <header>
         <h1>Publications</h1>
     </header>
-
+     <div class="container">
     <!-- Year 2023 -->
     <div class="year">2023</div>
-
+    
     <div class="publication">
         <div class="title">Quench dynamics of edge states in a finite extended Su-Schrieffer-Heeger system </div>
         <div class="authors">Anirban Ghosh, Andy M Martin, Sonjoy Majumder</div>
@@ -217,26 +188,11 @@
         <div class="details">Journal of Physics B: Atomic, Molecular and Optical Physics</div> 
         <div><a class="doi" href="https://iopscience.iop.org/article/10.1088/1361-6455/ab42c4/meta">DOI:10.1088/1361-6455/ab42c4</a></div>
     </div> 
-
+     </div>
     <!-- Add more publications for year 20YY -->
         
 
     <!-- Continue adding more years and publications as needed -->
- <footer>
-        <div class="container">
-            <div class="column">
-                <h3>Column 1</h3>
-                <p>Content for column 1 goes here.</p>
-            </div>
-            <div class="column">
-                <h3>Column 2</h3>
-                <p>Content for column 2 goes here.</p>
-            </div>
-            <div class="column">
-                <h3>Column 3</h3>
-                <p>Content for column 3 goes here.</p>
-            </div>
-        </div>
-    </footer>
+
 </body>
 </html>
