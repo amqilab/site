@@ -11,6 +11,32 @@
         "webpage": "https://tanima14.github.io/mtanima.github.io/"
     },
     {
+        "Name": "Sabyasachi Mukhopadhyay",
+        "Email": "sabyasachi@kgpian.iitkgp.ac.in",
+        "dateOfStart": "July, 2022",
+        "position": "PhD Scholar, Centre For Computational And Data Sciences, IIT Kharagpur",
+        "interests": "Biomedical Optical Imaging",
+        "photo": "./assets/img/male.png",
+        "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Mukhopadhyay-4/3",
+        "GoogleScholar": "https://scholar.google.co.in/citations?user=riMLn_YAAAAJ&hl=en"
+    },
+    {
+        "Name": "Deepu Singh ",
+        "Email": "ecc1603009@gmail.com",
+        "dateOfStart": "July, 2023",
+        "position": "Ph.D scholar, Physics",
+        "interests": "Atomic, molecular and optical physics",
+        "photo": "./assets/img/Deepu_Singh.jpg",
+    },
+    {
+        "Name": "Ranit Bose",
+        "Email": "ranit9002@gmail.com",
+        "dateOfStart": "July, 2023",
+        "position": "Ph.D scholar, Physics",
+        "interests": "Atomic, molecular and optical physics",
+        "photo": "./assets/img/Ranit_Bose.jpg",
+    },
+    {
         "Name": "Shainee Hazra",
         "Email": "shaineehz13@gmail.com",
         "dateOfStart": "Jan 2, 2018",
@@ -70,7 +96,7 @@
         "Name": "Soumyadeep Halder",
         "Email": "soumya.hhs@gmail.com",
         "dateOfStart": "Jan 1, 2019",
-        "position": "PhD Scholar, Physics",
+        "position": "PhD Scholar, Physics, IIT Kharagpur",
         "interests": "Ultracold quantum gases, Dipolar BEC, Quantum Droplets and Supersolids",
         "ResearchGate": "https://www.researchgate.net/profile/Soumyadeep-Halder-4",
         "GoogleScholar": "https://scholar.google.com/citations?user=ZjUSjNgAAAAJ&amp;hl=en",
