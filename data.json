@@ -186,6 +186,18 @@
         "photo": "./assets/img/PradipKumarMondal.jpg"
     },
     {
+        "Name": "Dilip Kumar Maity",
+        "Email": "dilmaity@gmail.com",
+        "dateOfStart": "Jul 1, 2015",
+        "graduated": "yes",
+        "dateOfCompletion": "Aug 1, 2021",
+        "position": "Postdoctoral Fellow at KAUST",
+        "interests": "Fluid Dynamics, Quantum Physics",
+        "ResearchGate": "https://www.researchgate.net/profile/Dilip-Maity-2",
+        "GoogleScholar": "https://scholar.google.com/citations?user=-V0xJ40AAAAJ&hl=en",
+        "photo": "./assets/img/Dilip_Maity.jpg"
+    },
+    {
         "Name": "Narendra Nath Dutta",
         "Email": "narendra.dutta39@gmail.com",
         "dateOfStart": "Jul 1, 2009",
