@@ -198,6 +198,17 @@
         "photo": "./assets/img/Dilip_Maity.jpg"
     },
     {
+        "Name": "Sourav Roy",
+        "Email": "souroy2023@gmail.com",
+        "dateOfStart": "Oct 1, 2011",
+        "graduated": "yes",
+        "dateOfCompletion": "Apr 1, 2016",
+        "position": "Postdoctoral Research Fellow, Hebrew University of Jerusalem, Israel",
+        "interests": "Computational atomic physics, Computational Chemistry, Electronic structure theory, Method developments",
+        "GoogleScholar": "https://scholar.google.com/citations?user=VYtXhpoAAAAJ&hl=en",
+        "photo": "./assets/img/sourav_roy.jpg"
+    },
+    {
         "Name": "Narendra Nath Dutta",
         "Email": "narendra.dutta39@gmail.com",
         "dateOfStart": "Jul 1, 2009",
