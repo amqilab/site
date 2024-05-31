@@ -60,7 +60,8 @@ body {
 
 .bg-intro-topics {
   content: "";
-  background-color: #c9cdd2;
+/*   background-color: #c9cdd2; */
+  background-color: #ffffff;
   /* background: linear-gradient(rgba(10, 20, 23, 0.6), rgba(10, 20, 23, 0.7)), url("../assets/img/backgrounds/bg2.png") no-repeat center center/cover; */
 }
 
