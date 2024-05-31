@@ -15,7 +15,7 @@
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-<!--     <link href="css/style.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,13 +32,16 @@
         .year {
             font-size: 25px;
             margin-top: 20px;
+            text-align: center;
         }
         .publication {
             border: 1px solid #ccc;
             background-color: white;
             padding: 15px;
             margin-bottom: 10px;
-            text-align: left; /* Ensures all text is left-aligned */
+        }
+        .publication .title, .publication .authors, .publication .details, .publication .doi {
+            text-align: left;
         }
         .title {
             font-size: 19px;
