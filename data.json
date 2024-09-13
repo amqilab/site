@@ -218,6 +218,18 @@
         "GoogleScholar": "https://scholar.google.com/citations?user=VYtXhpoAAAAJ&hl=en",
         "photo": "./assets/img/sourav_roy.jpg"
     },
+      {
+        "Name": "Gopal Dixit",
+        "Email": "gdixit@phy.iitb.ac.in",
+        "dateOfStart": "2008",
+        "graduated": "yes",
+        "dateOfCompletion": "2011",
+        "position": "Associate Professor, Indian Institute of Technology Bombay, India",
+        "interests": "Attosecond Science, Ultrafast X-ray Science, Quantum Technologies",
+        "GoogleScholar": "https://scholar.google.com/citations?hl=en&user=fpjJfUIAAAAJ&view_op=list_works&sortby=pubdate",
+        "ResearchGate": "https://www.researchgate.net/profile/Gopal-Dixit-5",
+        "photo": "./assets/img/male.png"
+    },
     {
         "Name": "Narendra Nath Dutta",
         "Email": "narendra.dutta39@gmail.com",
