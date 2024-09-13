@@ -1,4 +1,12 @@
 [
+      {
+        "Name": "Susovan Giri",
+        "Email": "iamsusovangiri@gmail.com",
+        "dateOfStart": "Dec 30, 2022",
+        "position": "PhD Scholar, Physics",
+        "interests": "Atomic, molecular and optical physics",
+        "photo": "./assets/img/susovan_giri.jpg"
+    },
     {
         "Name": "Tanima Mondal ",
         "Email": "mtanima14@gmail.com",
