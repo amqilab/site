@@ -68,9 +68,11 @@
         "Email": "harisadhanghosh4@gmail.com ",
         "dateOfStart": "Aug 2, 2021",
         "position": "PhD Scholar, Physics (PMRF)",
-        "interests": "Bose-Einstein Condensation, Quantum Optics ",
+        "interests": "Ultracold quantum gases, Dipolar BEC, Exciton-polariton condensate ",
         "ResearchGate": "https://www.researchgate.net/profile/Hari-Ghosh",
-        "photo": "./assets/img/harisadhanghosh.jpg"
+        "GoogleScholar": "https://scholar.google.com/citations?user=98XlmcYAAAAJ&hl=en",
+        "photo": "./assets/img/harisadhanghosh.jpg",
+        "webpage": "https://harisadhanghosh4.wixsite.com/hari-sadhan-ghosh"
     },
     {
         "Name": "Harshdeep Singh",
