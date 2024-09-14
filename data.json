@@ -7,6 +7,14 @@
         "interests": "Atomic, molecular and optical physics",
         "photo": "./assets/img/susovan_giri.jpg"
     },
+            {
+        "Name": "Vipin",
+        "Email": "vipinbohra.physics@gmail.com",
+        "dateOfStart": "Aug 2, 2024",
+        "position": "PhD Scholar, Physics",
+        "interests": "Ultracold quantum gases, Bose Einstein condensates ",
+        "photo": "./assets/img/vipin.jpg"
+    },
     {
         "Name": "Tanima Mondal ",
         "Email": "mtanima14@gmail.com",
