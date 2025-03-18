@@ -79,6 +79,15 @@
         "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Chakraborty-11",
         "photo": "./assets/img/SabyasachiChakraborty.jpg"
     },
+      {
+        "Name": "Suman Ghosh",
+        "Email": "iamsg77.24@kgpian.iitkgp.ac.in",
+        "dateOfStart": "Jul 15, 2024",
+        "position": "PhD Scholar, Physics",
+        "interests": "Ultracold quantum gases",
+        "GoogleScholar": "https://scholar.google.com/citations?user=5-KItf8AAAAJ&hl=en",
+        "photo": "./assets/img/Sumanghosh.jpeg"
+    },
     {
         "Name": "Hari Sadhan Ghosh ",
         "Email": "harisadhanghosh4@gmail.com ",
@@ -125,7 +134,7 @@
         "dateOfStart": "Jan 1, 2019",
         "graduated": "yes",
         "dateOfCompletion": "Jan 23, 2025",
-        "position": "PhD Scholar, Physics, IIT Kharagpur",
+        "position": "Postdoc, IIT Gandhinagar",
         "interests": "Ultracold quantum gases, Dipolar BEC, Quantum Droplets and Supersolids",
         "ResearchGate": "https://www.researchgate.net/profile/Soumyadeep-Halder-4",
         "GoogleScholar": "https://scholar.google.com/citations?user=ZjUSjNgAAAAJ&amp;hl=en",
