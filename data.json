@@ -138,6 +138,7 @@
         "interests": "Ultracold quantum gases, Dipolar BEC, Quantum Droplets and Supersolids",
         "ResearchGate": "https://www.researchgate.net/profile/Soumyadeep-Halder-4",
         "GoogleScholar": "https://scholar.google.com/citations?user=ZjUSjNgAAAAJ&amp;hl=en",
+        "webpage": "https://sites.google.com/view/soumyadeep-halder",
         "photo": "./assets/img/soumya1.jpg"
     },
     {
@@ -150,18 +151,20 @@
         "ResearchGate": "https://www.researchgate.net/profile/Subrata-Das-11",
         "GoogleScholar": "https://scholar.google.com/citations?user=PvcLNcIAAAAJ&hl=en",
         "graduated": "yes",
-        "dateOfCompletion": "Dec 19, 2022"
+        "dateOfCompletion": "Dec 19, 2022",
+        "webpage": "https://subratappt.github.io/site",
     },
     {
         "Name": "Rohit Kishan Ray",
         "Email": "rohitkishanray@gmail.com",
         "dateOfStart": "Jul 12, 2016",
-        "position": "Postdoc, Institute for Basic Science, South Korea",
+        "position": "Postdoc, Virginia Tech, USA",
         "interests": "Quantum Thermodynamics, Quantum Information and Quantun Foundation ",
         "ResearchGate": "https://www.researchgate.net/profile/Rohit-Ray",
         "GoogleScholar": "https://scholar.google.com/citations?hl=en&user=PG4ufAsAAAAJ",
         "graduated": "yes",
         "dateOfCompletion": "Jan 30, 2023",
+        "webpage": "https://rohitkishanray.com",
         "photo": "./assets/img/rkr.jpg"
     },
     {
