@@ -1,0 +1,57 @@
+name: Deploy to GitHub Pages with Auto-Update
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Update images.json
+        run: |
+          echo "Updating images.json..."
+          python3 update_recents.py
+          echo "Generated images.json with $(python3 -c "import json; print(len(json.load(open('recents/images.json'))))" ) images"
+      
+      - name: Commit updated images.json
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add recents/images.json
+          if git diff --staged --quiet; then
+            echo "No changes to images.json"
+          else
+            git commit -m "Auto-update images.json [skip ci]"
+            git push
+          fi
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
