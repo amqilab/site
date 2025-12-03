@@ -29,10 +29,52 @@
   <title>Video Lectures</title>
   <style>
     body {
-      font-family: Arial;
-      background-color: #e0dcdc;
-      margin: 1;
-      padding: 6px;
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+    }
+    .section-title {
+      color: white;
+      text-shadow: 0 0 8px rgba(0,0,0,0.4);
+    }
+    iframe {
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      border-radius: 10px;
+      border: none;
+    }
+    .talk-box {
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 900px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    /* Modern Footer */
+    .footer {
+      background: #0a0a12;
+      color: #d4d4e3;
+      padding: 35px 0 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .footer h5 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #00eaff;
+    }
+    .footer p {
+      font-size: 14px;
+      line-height: 1.6;
+      opacity: 0.85;
+    }
+    .footer-bottom {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 20px;
+      opacity: 0.7;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255,255,255,0.08);
     }
   </style>
 </head>
@@ -41,76 +83,117 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <body>
-    <nav id="navbar_top" class="navbar navbar-expand-md bg-dark navbar-dark shadow">
-      <div class="container">
-        <a href="index.html" class="navbar-brand align-self-center">
-        <img src="assets/img/droplet.png" class="rounded-circle" height="40">
+    <nav id="navbar_top" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top shadow">
+    <div class="container">
+      <!--             <a href="index.html" class="navbar-brand">AMQI</a> -->
+      <a href="index.html" class="navbar-brand align-self-center">
+        <img src="assets/img/droplet.png" alt="droplet" class="rounded-circle" height="40">
         AMQI
       </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <button class="navbar-toggler" type="button" title="navmenu" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="group.html" class="nav-link">Group Members</a>
-            </li>
-            <li class="nav-item">
-              <a href="publication.html" class="nav-link">Publications</a>
-            </li>
-            <li class="nav-item">
-              <a href="Talk.html" class="nav-link">Talks</a>
-            </li>
-            <li class="nav-item">
-              <a href="gallery.html" class="nav-link">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a href="http://10.33.1.110/nextcloud" class="nav-link">Cloud</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="group.html" class="nav-link">Group Members</a>
+          </li>
+          <li class="nav-item">
+            <a href="publication.html" class="nav-link">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a href="Talk.html" class="nav-link">Talks</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="http://10.33.1.110/nextcloud" class="nav-link">Cloud</a>
+          </li>
+
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <div style="height: 50px;"></div>
 
-    <div style="height: -20px;"></div>
     <section class="p-5 bg-intro" id="intro">
-      <div class="container">
-        <div class="h1 text-light text-center">
-          Atomic, Molecular & Quantum Information Group
-        </div>
-        <p class="h5 text-center text-light">
+    <div class="container">
+      <div class="h1 text-light text-center">
+        Atomic, Molecular & Quantum Information Group
+      </div>
+      <p class="h5 text-center text-light">
             Department of Physics, Indian Institute of Technology Kharagpur
           </p>
-        <div style="height: 20px;"></div>
-        <p class="h1 text-center text-light">
+      <div style="height: 20px;"></div>
+      <p class="h1 text-center text-light">
             Talks
           </p>
-      </div>
-    </section>
-    <div style="height: 25px;"></div>
-    <h3>PHYSICS WITH TRAPPED ATOMS, MOLECULES AND IONS</h3>
-    <a href="https://www.youtube.com/watch?v=Fj5AYFDC6Lk" target="_blank">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Fj5AYFDC6Lk" frameborder="0" allowfullscreen></iframe>
-    </a>
-    <p>
-        <strong>Lecture Place:</strong> ICTS Bengaluru<br>
-        <strong>Date:</strong> May 12, 2022
-    </p>
+    </div>
+  </section>
 
-    <div style="height: 25px;"></div>
-    <h3>QIQT 23</h3>
-    <a href="https://www.youtube.com/watch?v=LwYFjAra3b0" target="_blank">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/LwYFjAra3b0" frameborder="0" allowfullscreen></iframe>
-    </a>
-    <p>
-        <p><strong>Lecture Place:</strong> IISER Kolkata</p>
-    <p><strong>Date:</strong> May 26, 2023</p>
-    </p>
+    <div class="container my-5">
+  <div class="row g-5">
+
+    <!-- ICTS Talk -->
+    <div class="col-md-6">
+      <div class="card shadow-lg border-0 rounded-3">
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/Fj5AYFDC6Lk"
+            title="Physics with Trapped Atoms, Molecules and Ions"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Physics with Trapped Atoms, Molecules and Ions</h5>
+          <p class="card-text">
+            <strong>Lecture Place:</strong> ICTS Bengaluru<br>
+            <strong>Date:</strong> May 12, 2022
+          </p>
+          <a href="https://www.youtube.com/watch?v=Fj5AYFDC6Lk" 
+             target="_blank" class="btn btn-primary btn-sm" rel="noopener">
+            Watch on YouTube
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- QIQT Talk -->
+    <div class="col-md-6">
+      <div class="card shadow-lg border-0 rounded-3">
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/LwYFjAra3b0"
+            title="QIQT 23"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold">QIQT 23</h5>
+          <p class="card-text">
+            <strong>Lecture Place:</strong> IISER Kolkata<br>
+            <strong>Date:</strong> May 26, 2023
+          </p>
+          <a href="https://www.youtube.com/watch?v=LwYFjAra3b0" 
+             target="_blank" class="btn btn-primary btn-sm" rel="noopener">
+            Watch on YouTube
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
     <footer class="bg-dark text-light pt-2">
       <div class="container">
         <div class="row">
