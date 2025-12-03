@@ -38,29 +38,21 @@
     <div class="container">
       <!--             <a href="index.html" class="navbar-brand">AMQI</a> -->
       <a href="index.html" class="navbar-brand align-self-center">
-        <img src="assets/img/droplet.png" class="rounded-circle" height="40">
+        <img src="assets/img/droplet.png" alt="droplet" class="rounded-circle" height="40">
         AMQI
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <button class="navbar-toggler" type="button" title="navmenu" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a href="index.html" class="nav-link">Home</a>
           </li>
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" id="groupMembersDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-                      Group Members
-                    </a>
-            <ul class="dropdown-menu" aria-labelledby="groupMembersDropdown">
-              <li><a class="dropdown-item" href="#groupHead">Group Head</a></li>
-              <li><a class="dropdown-item" href="#presentMembers">Present Members</a></li>
-              <li><a class="dropdown-item" href="#formerMembers">Former Members</a></li>
-            </ul>
+          <li class="nav-item">
+            <a href="group.html" class="nav-link">Group Members</a>
           </li>
           <li class="nav-item">
             <a href="publication.html" class="nav-link">Publications</a>
@@ -80,6 +72,7 @@
     </div>
   </nav>
   <div style="height: 50px;"></div>
+  
   <section class="p-5 bg-intro" id="intro">
     <div class="container">
       <div class="h1 text-light text-center">
@@ -95,6 +88,7 @@
     </div>
   </section>
 
+  <!-- Group Head Section -->
   <section class="p-5 text-center text-sm-start bg-present" id="groupHead">
     <div class="h1 text-center text-dark p-3">Group Head</div>
     <div class="container">
@@ -106,10 +100,17 @@
           <div class="text-center">
             <h4 class="text-dark">Sonjoy Majumder</h4>
             <p style="color:rgb(137, 137, 137)">Professor, Physics</p>
-            <tt class="text-lg" style="color:rgb(167, 167, 167)">sonjoym@phy.iitkgp.ac.in</tt>
+            <a
+              href="mailto:sonjoym@phy.iitkgp.ac.in"
+              class="text-muted text-decoration-none d-inline-block mb-3"
+              aria-label="Send email to Professor Sonjoy Majumder"
+            >
+              <i class="bi bi-envelope-fill me-2"></i>
+              sonjoym@phy.iitkgp.ac.in
+            </a>
           </div>
         </div>
-        <p
+        <p class="pt-3"
           style="color:rgb(0,0,0)">Prof. Sonjoy Majumder is a distinguished theoretical physicist and currently serves as a professor in the Department of Physics at the Indian Institute of Technology Kharagpur (IIT KGP). He earned his Ph.D. in Physics from the Indian Institute of Astrophysics (IIA) in Bangalore and completed postdoctoral fellowships at the Harish-Chandra Research Institute in Allahabad, the Technical University of Munich in Germany, and the Institute for Nano-Technology at FZK in Germany.
 Prof. Majumder's research interests lie in the theoretical investigation of condensed matter systems, including Bose-Einstein condensates (BECs), ultracold atoms, topological phases of matter, and quantum information processing. His numerous publications in prestigious scientific journals attest to his profound contributions to the field of theoretical physics.</p>
 
@@ -119,12 +120,13 @@ Prof. Majumder's research interests lie in the theoretical investigation of cond
     </div>
   </section>
 
+  <!-- Present Member Section  -->
   <section class="container-fluid bg-present" id="presentMembers">
     <div class="h1 text-center text-dark pt-3">Present Members</div>
     <div class="container">
       <div class="row" id="presentMember">
       </div>
-      <h4 class="text-dark py-3">Visitor</h4>
+      <!-- <h4 class="text-dark py-3">Visitor</h4> -->
       <div class="row" id="presentMemberVisitor">
       </div>
   </section>
@@ -135,10 +137,12 @@ Prof. Majumder's research interests lie in the theoretical investigation of cond
     <div class="container">
       <div class="row" id="formerMember">
       </div>
+      <h4 class="text-dark py-3">Visitor</h4>
       <div class="row" id="formerMemberVisitor">
       </div>
     </div>
   </section>
+
   <footer class="bg-dark text-light pt-2">
     <div class="container">
       <div class="row">
@@ -240,6 +244,9 @@ Prof. Majumder's research interests lie in the theoretical investigation of cond
       if (typeof data[i].webpage != 'undefined') {
         weblink += `<a href=${data[i].webpage}><img src="assets/icons/web.png" width="25" height="25"></img></a>`
       }
+      if (typeof data[i].linkedin != 'undefined') {
+        weblink += `<a href=${data[i].linkedin}><img src="assets/icons/linkedin.webp" width="25" height="25"></img></a>`
+      }
 
       var d1 = new Date(data[i].dateOfStart)
       var d2 = new Date(data[i].dateOfCompletion)
@@ -248,13 +255,13 @@ Prof. Majumder's research interests lie in the theoretical investigation of cond
       var row = `
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
 <div class="card bg-present-card h-100">
-    <img src=${data[i].photo} class=" p-2 img-fluid rounded-circle full-width" alt="...">
+    <img src=${data[i].photo} class=" p-2 img-fluid rounded-circle full-width" alt="${data[i].Name}"">
     <div class="card-body text-center">
         <h5 class="card-title">${data[i].Name}</h5>
         <p  style="font-size:80%;color:rgb(43, 98, 170)">${dura}</p>
         <p class="card-text" style="color:rgb(26, 66, 80)">${data[i].position}</p>
         <p class="card-text">${data[i].interests}</p>
-        <tt class="text-lg text-email">${data[i].Email}</tt>
+        <a class="text-lg text-email text-decoration-none">${data[i].Email}</a>
         <div class="d-flex justify-content-center gap-3 mt-1">${weblink}</div>
  
     </div>
@@ -294,19 +301,19 @@ Prof. Majumder's research interests lie in the theoretical investigation of cond
       var dura = monthNames[d1.getMonth()] + ", " + d1.getFullYear() + " - " + monthNames[d2.getMonth()] + ", " + d2.getFullYear()
       var row = `
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
-<div class="card bg-former-card h-100">
-    <img src=${data[i].photo} class=" p-2 img-fluid rounded-circle" alt="...">
-    <div class="card-body text-center">
-        <h5 class="card-title">Dr. ${data[i].Name}</h5>
-        <p  style="font-size:80%;color:rgb(43, 98, 170)">${dura}</p>
-        <p class="card-text fw-bolder" style="color:rgb(26, 66, 80)">${data[i].position}</p>
-        <p class="card-text">${data[i].interests}</p>
-        <tt class="text-center text-email">${data[i].Email}</tt>
-        <div class="d-flex justify-content-center gap-3 mt-1">${weblink}</div>
-    </div>
-</div>
-</div>
-`
+              <div class="card bg-former-card h-100">
+                  <img src=${data[i].photo} class=" p-2 img-fluid rounded-circle" alt="${data[i].Name}">
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Dr. ${data[i].Name}</h5>
+                      <p  style="font-size:80%;color:rgb(43, 98, 170)">${dura}</p>
+                      <p class="card-text fw-bolder" style="color:rgb(26, 66, 80)">${data[i].position}</p>
+                      <p class="card-text">${data[i].interests}</p>
+                      <a class="text-center text-email text-decoration-none" >${data[i].Email}</a>
+                      <div class="d-flex justify-content-center gap-3 mt-1">${weblink}</div>
+                  </div>
+              </div>
+            </div>
+          `
 
       if (data[i].Visitor == "yes") {
         listFormerVisitor.innerHTML += row
