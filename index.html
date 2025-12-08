@@ -32,28 +32,22 @@
 <link href="assets/css/style.css" rel="stylesheet">
 
 <body>
-  <nav id="navbar_top" class="navbar navbar-expand-md bg-dark navbar-dark shadow">
+  <nav id="navbar_top" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top shadow">
     <div class="container">
+      <!--             <a href="index.html" class="navbar-brand">AMQI</a> -->
       <a href="index.html" class="navbar-brand align-self-center">
-        <img src="assets/img/droplet.png" class="rounded-circle" height="40">
+        <img src="assets/img/droplet.png" alt="droplet" class="rounded-circle" height="40">
         AMQI
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <button class="navbar-toggler" type="button" title="navmenu" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Home
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="homeDropdown">
-              <li><a class="dropdown-item" href="#recent">Recent Updates</a></li>
-              <li><a class="dropdown-item" href="#intro">Research</a></li>
-            </ul>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="group.html" class="nav-link">Group Members</a>
@@ -70,12 +64,14 @@
           <li class="nav-item">
             <a href="http://10.33.1.110/nextcloud" class="nav-link">Cloud</a>
           </li>
+
         </ul>
       </div>
     </div>
   </nav>
+  <!-- <div style="height: 50px;"></div> -->
 
-  <section class="p-5 bg-intro" id="intro">
+  <section class="p-5 bg-intro mt-5" id="intro">
     <div class="container">
       <div class="h1 text-light text-center">
         Atomic, Molecular & Quantum Information Group
@@ -114,58 +110,125 @@
     <div style="height: 100px;"></div>
   </section>
 
-  <section class="container-fluid bg-present">
-    <!--     <div class="container"style="background-color: #f0f0f0;"> -->
-    <div class="container pt-3">
-      <div class="h1 text-center text-dark p-3">Research</div>
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-4 text-center pt-3 px-2">
-          <h3 class="text-dark">Ultracold Atom</h3>
-          <!-- <img src="recents/Physics.png" class="rounded-circle img-fluid w-25" alt="..."> -->
-          <p class="text-light p-2 topics-info mt-1">Bose-Einstein condensates (BEC), Dipolar BEC, Quantum Droplets and
-            Supersolids,
-            Multicomponent BEC, Spinor BEC, Instability & Quantum Turbulence</p>
-        </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-4 text-center pt-3 px-2">
-          <h3 class="text-dark">Quantum Foundations</h3>
-          <!-- <img src="recents/Physics.png" class="rounded-circle img-fluid w-25" alt="..."> -->
-          <p class="text-light p-2 topics-info mt-1">Nonlinear quantum theory, Quantum Ontology, Quantum Information,
-            Quantum
-            Thermodynamics</p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 text-center pt-3 px-2">
-          <h3 class="text-dark">Atomic Physics</h3>
-          <!-- <img src="recents/Physics.png" class="rounded-circle img-fluid w-25" alt="..."> -->
-          <p class="text-light  p-2 topics-info">Relativistic Many-electron theory</p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 text-center pt-3 px-2">
-          <h3 class="text-dark">Strongly Correlated and Topological Phases</h3>
-          <!-- <img src="recents/Physics.png" class="rounded-circle img-fluid w-25" alt="..."> -->
-          <p class="text-light p-2 topics-info mt-1">Topological phases of simple lattice models, Topological
-            non-equilibrium dynamics, Non
-            Hermitian PT-symmetry, First principal calculation in strongly
-            correlated system</p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 text-center pt-3 px-2">
-          <h3 class="text-dark">Quantum Algorithm</h3>
-          <!-- <img src="recents/Physics.png" class="rounded-circle img-fluid w-25" alt="..."> -->
-          <p class="text-light p-2 topics-info mt-1">Quantum Algorithm</p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 text-center pt-3 px-2">
-          <h3 class="text-dark">High Energy & Astrophysics</h3>
-          <!-- <img src="recents/Physics.png" class="rounded-circle img-fluid w-25" alt="..."> -->
-          <p class="text-light p-2 topics-info mt-1">VHE Gamma-ray Astronomy, Gamma Ray burst (GRB) modeling, Neutrino
-            oscillation, Deep
-            learning techniques of event selection and reconstruction </p>
+<!-- Research Section -->
+<section class="container-fluid bg-present mt-10">
+  <style>
+    .research-box {
+      background-color: #73797b; 
+      border-radius: 22px;
+      padding: 22px 24px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.3s ease;
+    }
+
+    .research-box:hover {
+      /* background-color: #3d5875; */
+      transform: translateY(-5px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+    }
+
+    .research-box h3 {
+      color: #ffffff;
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    .research-box p {
+      color: #f3f8fc;
+      font-size: 0.95rem;
+      line-height: 1.52;
+      margin-bottom: 0;
+    }
+
+    .research-box .topics-info {
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+
+  <div class="container pt-3">
+    <div class="h1 text-center text-dark p-3">Research</div>
+
+    <!-- 1 col on mobile, 2 on md, 3 on lg; equal height per row -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+      <div class="col pt-3 px-2 d-flex">
+        <div class="research-box">
+          <h3>Ultracold Atom</h3>
+          <p class="topics-info">
+            Bose-Einstein condensates (BEC), Dipolar BEC, Quantum Droplets and Supersolids,
+            Multicomponent BEC, Spinor BEC, Instability &amp; Quantum Turbulence
+          </p>
         </div>
       </div>
+
+      <div class="col pt-3 px-2 d-flex">
+        <div class="research-box">
+          <h3>Quantum Foundations</h3>
+          <p class="topics-info">
+            Nonlinear quantum theory, Quantum Ontology, Quantum Information,
+            Quantum Thermodynamics
+          </p>
+        </div>
+      </div>
+
+      <div class="col pt-3 px-2 d-flex">
+        <div class="research-box">
+          <h3>Atomic Physics</h3>
+          <p class="topics-info">
+            Relativistic many-electron theory
+          </p>
+        </div>
+      </div>
+
+      <div class="col pt-3 px-2 d-flex">
+        <div class="research-box">
+          <h3>Strongly Correlated &amp; Topological Phases</h3>
+          <p class="topics-info">
+            Topological phases of simple lattice models, Topological non-equilibrium dynamics,
+            Non-Hermitian PT-symmetry, First-principles calculation in strongly correlated systems
+          </p>
+        </div>
+      </div>
+
+      <div class="col pt-3 px-2 d-flex">
+        <div class="research-box">
+          <h3>Quantum Algorithms</h3>
+          <p class="topics-info">
+            Quantum algorithms for simulation &amp; optimization
+          </p>
+        </div>
+      </div>
+
+      <div class="col pt-3 px-2 d-flex">
+        <div class="research-box">
+          <h3>High Energy &amp; Astrophysics</h3>
+          <p class="topics-info">
+            VHE gamma-ray astronomy, gamma-ray burst (GRB) modeling, neutrino oscillation,
+            Deep-learning techniques for event selection and reconstruction
+          </p>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
 
 
-  <footer class="bg-dark text-light pt-2">
+
+
+
+  <footer class="bg-dark text-light pt-2 mt-3">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
