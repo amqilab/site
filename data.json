@@ -1,11 +1,88 @@
 [
       {
+        "Name": "Sudipta Majumder",
+        "Email": "sudiptam.iitkgp.phy@gmail.com",
+        "dateOfStart": "July 3, 2025",
+        "position": "PhD Scholar, Physics",
+        "interests": "Quantum Machine Learning",
+        "photo": "./assets/img/sudiptam.png",
+        "ResearchGate":"https://www.researchgate.net/profile/Sudipta-Majumder-3",
+        "webpage":"https://sudipta-on.github.io/",
+        "linkedin":"https://www.linkedin.com/in/sudipta-majumder/"
+    },
+      {
+        "Name": "Vijay Kumar",
+        "Email": "vijay.vijaykumar.kumar30@gmail.com",
+        "dateOfStart": "July 1, 2025",
+        "position": "PhD Scholar, Physics",
+        "interests": "Quantum Computing",
+        "photo": "./assets/img/male.png"
+    },
+    {
+        "Name": "Sandipan Hazra",
+        "Email": "hazrasandipan55@gmail.com",
+        "dateOfStart": "July 2, 2025",
+        "position": "PhD Scholar, Physics",
+        "interests": "Quantum Information Theory, Quantum Computation",
+        "photo": "./assets/img/sandipanh.png",
+        "ResearchGate":"https://www.researchgate.net/profile/Sandipan-Hazra-3",
+        "linkedin":"https://www.linkedin.com/in/sandipan-hazra"
+    },
+    {
+        "Name": "Arijit Sikder",
+        "Email": "mearijitsikder@gmail.com",
+        "dateOfStart": "July 7, 2025",
+        "position": "PhD Scholar, Physics",
+        "interests": "Stochastic Bose Einstein Condensation",
+        "photo": "./assets/img/arijits.png",
+        "linkedin":"https://www.linkedin.com/in/arijit-sikder-900b10376"
+    },
+    {
+        "Name": "Asish Panda",
+        "Email": "asishpanda9987@gmail.com",
+        "dateOfStart": "July 7, 2025",
+        "position": "PhD Scholar, Physics",
+        "interests": "Quantum Photonics",
+        "photo": "./assets/img/asishp.png",
+        "linkedin":"https://www.linkedin.com/in/arijit-sikder-900b10376"
+    },
+    {
+        "Name": "Saptadeep Chatterjee",
+        "Email": "saptadeepc.physics@gmail.com",
+        "dateOfStart": "July 8, 2025",
+        "position": "PhD Scholar, Physics",
+        "interests": "Quantum Photonics",
+        "photo": "./assets/img/saptadeepc.png",
+        "GoogleScholar":"https://scholar.google.com/citations?user=n1VJbC8AAAAJ&hl=en",
+        "linkedin":"https://www.linkedin.com/in/saptadeep-chatterjee-551a97163/"
+    },
+    {
+        "Name": "Abhinaba Pahari",
+        "Email": "abhinabapahari@gmail.com",
+        "dateOfStart": "July 2, 2025",
+        "position": "PhD Scholar, Physics",
+        "interests": "Non Hermitian Physics, Open quantum systems",
+        "photo": "./assets/img/abhinabap.png",
+        "GoogleScholar":"https://scholar.google.com/citations?user=avTdwusAAAAJ",
+        "ResearchGate":"https://www.researchgate.net/profile/Abhinaba-Pahari",
+        "linkedin":"linkedin.com/in/abhinabapahari"
+    },
+    {
+        "Name": "Dwij Brahmbhatt",
+        "Email": "dwijbecomesdoctor25@kgpian.iitkgp.ac.in",
+        "dateOfStart": "July 2, 2025",
+        "position": "PhD Scholar, Physics",
+        "interests": "Quantum Machine Learning",
+        "photo": "./assets/img/dwij.png",
+        "linkedin":"https://www.linkedin.com/in/dwij-brahmbhatt-798708208"
+    },
+      {
         "Name": "Susovan Giri",
         "Email": "iamsusovangiri@gmail.com",
         "dateOfStart": "Dec 30, 2022",
         "position": "PhD Scholar, Physics",
         "interests": "Atomic, molecular and optical physics",
-        "photo": "./assets/img/susovan_giri.jpg"
+        "photo": "./assets/img/susovan_giri.png"
     },
 {
         "Name": "Vipin",
@@ -167,7 +244,7 @@
         "position": "Visiting Research Scholar (Vidysagar University), Assistant Teacher",
         "interests": "Atomic physics, quantum physics",
         "ResearchGate": "https://www.researchgate.net/publication/323410491_Accurate_estimations_of_electromagnetic_transitions_of_Sn_IV_for_stellar_and_interstellar_media",
-        "photo": "./assets/img/male.png",
+        "photo": "./assets/img/swapan_biswas.png",
         "Visitor": "yes"
     },
     {
@@ -251,7 +328,7 @@
         "interests": "Attosecond Science, Ultrafast X-ray Science, Quantum Technologies",
         "GoogleScholar": "https://scholar.google.com/citations?hl=en&user=fpjJfUIAAAAJ&view_op=list_works&sortby=pubdate",
         "ResearchGate": "https://www.researchgate.net/profile/Gopal-Dixit-5",
-        "photo": "./assets/img/male.png"
+        "photo": "./assets/img/gopaldixit.png"
     },
     {
         "Name": "Narendra Nath Dutta",
