@@ -1,0 +1,378 @@
+[
+  {
+    "year": 2025,
+    "title": "Multi Messenger Study of GRB 221009A with VHE Gamma-ray and Neutrino Afterglow from a Gaussian Structured Jet",
+    "authors": "T. Mondal, S. Razzaque, JC. Joshi, S. Majumder, D. Bose",
+    "journal": "arXiv",
+    "doi": "https://doi.org/10.48550/arXiv.2511.13633",
+    "doiText": "DOI: arXiv.2511.13633"
+  },
+  {
+    "year": 2025,
+    "title": "Continuous-time quantum walk on a random graph using quantum circuits",
+    "authors": "Sabyasachi Chakraborty, Rohit Sarma Sarkar, Sonjoy Majumder, Rohit Kishan Ray",
+    "journal": "arXiv",
+    "doi": "https://doi.org/10.48550/arXiv.2510.14905",
+    "doiText": "DOI: arXiv.2510.14905"
+  },
+  {
+    "year": 2025,
+    "title": "Dissipation in fermionic two-body continuous-time quantum walk under the steepest entropy ascent formalism",
+    "authors": "Rohit Kishan Ray, R. Srikanth, Sonjoy Majumder",
+    "journal": "Physical Review E",
+    "doi": "https://doi.org/10.48550/arXiv.2501.18489",
+    "doiText": "DOI: arXiv.2501.18489"
+  },
+  {
+    "year": 2025,
+    "title": "Magnetization induced skyrmion dynamics of a spin–orbit-coupled spinor condensate under sinusoidally varying magnetic field",
+    "authors": "Arpana Saboo, Soumyadeep Halder, Mithun Thudiyangal, Sonjoy Majumder",
+    "journal": "New Journal of Physics",
+    "doi": "https://iopscience.iop.org/article/10.1088/1367-2630/adcb63",
+    "doiText": "DOI: New J. Phys. 27 043019"
+  },
+  {
+    "year": 2025,
+    "title": "Blockwise Optimization for Projective Variational Quantum Dynamics (BLOP-VQD): Algorithm and Implementation for Lattice Systems",
+    "authors": "Harshdeep Singh, Sonjoy Majumder, Sabyashachi Mishra",
+    "journal": "arXiv",
+    "doi": "https://doi.org/10.48550/arXiv.2503.18279",
+    "doiText": "DOI: arXiv.2503.18279"
+  },
+  {
+    "year": 2025,
+    "title": "Scalable quantum circuit simulation of a chaotic Ising chain",
+    "authors": "Sabyasachi Chakraborty, Rohit Sarma Sarkar, Sonjoy Majumder",
+    "journal": "arXiv",
+    "doi": "https://doi.org/10.48550/arXiv.2502.17286",
+    "doiText": "DOI: arXiv.2502.17286"
+  },
+  {
+    "year": 2025,
+    "title": "Roadmap to vortex nucleation below critical rotation frequency in a dipolar Bose-Einstein condensate",
+    "authors": "Soumyadeep Halder, Hari Sadhan Ghosh, Arpana Saboo, Andy M Martin, Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.111.023301",
+    "doiText": "DOI: PhysRevA.111.023301"
+  },
+  {
+    "year": 2025,
+    "title": "SHARC-VQE: Simplified Hamiltonian approach with refinement and correction enabled variational quantum eigensolver for molecular simulation",
+    "authors": "Harshdeep Singh, Sonjoy Majumder, Sabyashachi Mishra",
+    "journal": "Journal of Chemical Physics",
+    "doi": "https://doi.org/10.1063/5.0249447",
+    "doiText": "DOI: J. Chem. Phys. 162, 114117"
+  },
+
+  {
+    "year": 2024,
+    "title": "Sinusoidal-magnetic-field-induced topological excitations in a spin-orbit-coupled spinor condensate",
+    "authors": "Arpana Saboo, Soumyadeep Halder, Subrata Das, Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.110.033325",
+    "doiText": "DOI: 10.1103/PhysRevA.110.033325"
+  },
+  {
+    "year": 2024,
+    "title": "Induced supersolidity and hypersonic flow of a dipolar Bose-Einstein condensate in a rotating bubble trap",
+    "authors": "Hari Sadhan Ghosh, Soumyadeep Halder, Subrata Das, Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.110.033322",
+    "doiText": "DOI: 10.1103/PhysRevA.110.033322"
+  },
+  {
+    "year": 2024,
+    "title": "Roadmap to vortex nucleation below critical rotation frequency in a dipolar Bose-Einstein condensate",
+    "authors": "Soumyadeep Halder, Hari Sadhan Ghosh, Arpana Saboo, Andy M Martin, Sonjoy Majumder",
+    "journal": "arXiv",
+    "doi": "https://doi.org/10.48550/arXiv.2409.00251",
+    "doiText": "DOI: arXiv.2409.00251"
+  },
+  {
+    "year": 2024,
+    "title": "Induced supersolidity in a Dy-Er mixture",
+    "authors": "Soumyadeep Halder, Subrata Das, Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.109.063321",
+    "doiText": "DOI: 10.1103/PhysRevA.109.063321"
+  },
+  {
+    "year": 2024,
+    "title": "Hückel Molecular Orbital Theory on a Quantum Computer: A Scalable System-Agnostic Variational Implementation with Compact Encoding",
+    "authors": "Harshdeep Singh, Sonjoy Majumder, Sabyashachi Mishra",
+    "journal": "Journal of Chemical Physics",
+    "doi": "https://doi.org/10.1063/5.0210597",
+    "doiText": "DOI: 10.1063/5.0210597"
+  },
+  {
+    "year": 2024,
+    "title": "Spin-Orbit Coupled Rotating Spin-1 Bose-Einstein Condensates Under External Magnetic Field",
+    "authors": "Arpana Saboo, Subrata Das, Soumyadeep Halder, Sonjoy Majumder",
+    "journal": "Springer Nature Switzerland (Proceedings of the 2nd International Conference on Nonlinear Dynamics and Applications)",
+    "doi": "https://doi.org/10.1007/978-3-031-66874-6_25",
+    "doiText": "DOI: 10.1007/978-3-031-66874-6_25"
+  },
+
+  {
+    "year": 2023,
+    "title": "On The Study Of Partial Qubit Hamiltonian For Efficient Molecular Simulation Using Variational Quantum Eigensolvers",
+    "authors": "Harshdeep Singh, Sabyashachi Mishra, Sonjoy Majumder",
+    "journal": "2023 International Conference on Quantum Technologies, Communications, Computing, Hardware and Embedded Systems Security (IEEE Xplore)",
+    "doi": "https://doi.org/10.1109/iQ-CCHESS56596.2023.10391502",
+    "doiText": "DOI: 10.1109/iQ-CCHESS56596.2023.10391502"
+  },
+  {
+    "year": 2023,
+    "title": "Quench dynamics of edge states in a finite extended Su-Schrieffer-Heeger system",
+    "authors": "Anirban Ghosh, Andy M Martin, Sonjoy Majumder",
+    "journal": "Physical Review E",
+    "doi": "https://doi.org/10.1103/PhysRevE.108.034102",
+    "doiText": "DOI: 10.1103/PhysRevE.108.034102"
+  },
+  {
+    "year": 2023,
+    "title": "Rayleigh-Taylor instability in a phase-separated three-component Bose-Einstein condensate",
+    "authors": "Arpana Saboo, Soumyadeep Halder, Subrata Das, Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.108.013320",
+    "doiText": "DOI: 10.1103/PhysRevA.108.013320"
+  },
+  {
+    "year": 2023,
+    "title": "Two-dimensional miscible-immiscible supersolid and droplet crystal state in a homonuclear dipolar bosonic mixture",
+    "authors": "Soumyadeep Halder, Subrata Das, Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.107.063303",
+    "doiText": "DOI: 10.1103/PhysRevA.107.063303"
+  },
+  {
+    "year": 2023,
+    "title": "Benchmarking of different optimizers in the variational quantum algorithms for applications in quantum chemistry",
+    "authors": "Harshdeep Singh, Sonjoy Majumder, Sabyashachi Mishra",
+    "journal": "Journal of Chemical Physics",
+    "doi": "https://doi.org/10.1063/5.0161057",
+    "doiText": "DOI: 10.1063/5.0161057"
+  },
+  {
+    "year": 2023,
+    "title": "Extracting Information from Partial Hamiltonian of Simple Molecules for Designing Efficient Variational Quantum Eigensolvers",
+    "authors": "Harshdeep Singh, Sabyashachi Mishra, Sonjoy Majumder",
+    "journal": "Optica Quantum 2.0 Conference and Exhibition",
+    "doi": "https://doi.org/10.1364/QUANTUM.2023.QTu3A.18",
+    "doiText": "DOI: 10.1364/QUANTUM.2023.QTu3A.18"
+  },
+  {
+    "year": 2023,
+    "title": "Transitional Strength under Plasma: Precise Estimations of Astrophysically Relevant Electromagnetic Transitions of Ar7+, Kr7+, Xe7+, and Rn7+ under Plasma Atmosphere",
+    "authors": "Swapan Biswas, Anal Bhowmik, Arghya Das, Radha Raman Pal, Sonjoy Majumder",
+    "journal": "Atoms",
+    "doi": "https://doi.org/10.3390/atoms11060087",
+    "doiText": "DOI: 10.3390/atoms11060087"
+  },
+
+  {
+    "year": 2022,
+    "title": "Control of Dy(164) Bose-Einstein condensate phases and dynamics with dipolar anisotropy",
+    "authors": "S Halder, K Mukherjee, SI Mistakidis, S Das, PG Kevrekidis, PK Panigrahi, S Majumder, HR Sadeghpour",
+    "journal": "Physical Review Research",
+    "doi": "https://doi.org/10.1103/PhysRevResearch.4.043124",
+    "doiText": "DOI: 10.1103/PhysRevResearch.4.043124"
+  },
+  {
+    "year": 2022,
+    "title": "Steepest entropy ascent solution for a continuous-time quantum walker",
+    "authors": "Rohit Kishan Ray",
+    "journal": "Physical Review E",
+    "doi": "https://doi.org/10.1103/PhysRevE.106.024115",
+    "doiText": "DOI: 10.1103/PhysRevE.106.024115"
+  },
+  {
+    "year": 2022,
+    "title": "Two-Photon Polarizability of Ba+ Ion: Control of Spin-Mixing Processes in an Ultracold Ba+(137) − Rb(87) Mixture",
+    "authors": "Arghya Das, Anal Bhowmik, Narendra Nath Dutta, Sonjoy Majumder",
+    "journal": "Atoms",
+    "doi": "https://doi.org/10.3390/atoms10040109",
+    "doiText": "DOI: 10.3390/atoms10040109"
+  },
+  {
+    "year": 2022,
+    "title": "Vortex formation and quantum turbulence with rotating paddle potentials in a two-dimensional binary Bose-Einstein condensate",
+    "authors": "Subrata Das, Koushik Mukherjee, Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.106.023306",
+    "doiText": "DOI: 10.1103/PhysRevA.106.023306"
+  },
+  {
+    "year": 2022,
+    "title": "Pattern formation and evidence of quantum turbulence in binary Bose-Einstein condensates interacting with a pair of Laguerre-Gaussian laser beams",
+    "authors": "Madhura Ghosh Dastidar, Subrata Das, Koushik Mukherjee, Sonjoy Majumder",
+    "journal": "Physics Letters A",
+    "doi": "https://doi.org/10.1016/j.physleta.2021.127776",
+    "doiText": "DOI: 10.1016/j.physleta.2021.127776"
+  }
+    ,
+  {
+    "year": 2021,
+    "title": "Spontaneous Formation of Star-Shaped Surface Patterns in a Driven Bose-Einstein Condensate",
+    "authors": "K. Kwon, K. Mukherjee, S. J. Huh, K. Kim, S. I. Mistakidis, D. K. Maity, P. G. Kevrekidis, S. Majumder, P. Schmelcher, J.-y. Choi",
+    "journal": "Physical Review Letters",
+    "doi": "https://doi.org/10.1103/PhysRevLett.127.113001",
+    "doiText": "DOI: 10.1103/PhysRevLett.127.113001"
+  },
+  {
+    "year": 2021,
+    "title": "Dynamics of the Creation of a Rotating Bose-Einstein Condensation by Two Photon Raman Transition Using a Laguerre–Gaussian Laser Pulse",
+    "authors": "Koushik Mukherjee, Soumik Bandyopadhyay, Dilip Angom, Andrew M Martin, Sonjoy Majumder",
+    "journal": "Atoms",
+    "doi": "https://doi.org/10.3390/atoms9010014",
+    "doiText": "DOI: 10.3390/atoms9010014"
+  },
+
+  {
+    "year": 2020,
+    "title": "Vector polarizability of an atomic state induced by a linearly polarized vortex beam: External control of magic, tune-out wavelengths, and heteronuclear spin oscillations",
+    "authors": "Anal Bhowmik, Narendra Nath Dutta, and Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.102.063116",
+    "doiText": "DOI: 10.1103/PhysRevA.102.063116"
+  },
+  {
+    "year": 2020,
+    "title": "Induced interactions and quench dynamics of bosonic impurities immersed in a Fermi sea",
+    "authors": "K. Mukherjee, S. I. Mistakidis, S. Majumder, and P. Schmelcher",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.102.053317",
+    "doiText": "DOI: 10.1103/PhysRevA.102.053317"
+  },
+  {
+    "year": 2020,
+    "title": "Parametrically excited star-shaped patterns at the interface of binary Bose-Einstein condensates",
+    "authors": "D K Maity, K Mukherjee, S I Mistakidis, S Das, P G Kevrekidis, S Majumder, P Schmelcher",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.102.033320",
+    "doiText": "DOI: 10.1103/PhysRevA.102.033320"
+  },
+  {
+    "year": 2020,
+    "title": "Many-body calculations and hyperfine-interaction effect on dynamic polarizabilities at the low-lying energy levels of Y 2+",
+    "authors": "Arghya Das, Anal Bhowmik, Narendra Nath Dutta, Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.102.012801",
+    "doiText": "DOI: 10.1103/PhysRevA.102.012801"
+  },
+  {
+    "year":2020,
+    "title":"Pulse-and continuously driven many-body quantum dynamics of bosonic impurities in a Bose-Einstein condensate",
+    "authors": "K. Mukherjee, S. I. Mistakidis, S. Majumder, and P. Schmelcher",
+    "journal":"Physical Review A",
+    "doi":"https://doi.org/10.1103/PhysRevA.101.023615",
+    "doiText": "DOI:10.1103/PhysRevA.101.023615"
+  },
+  {
+    "year": 2020,
+    "title": "Transfer of orbital angular momentum superposition from asymmetric Laguerre–Gaussian beam to Bose–Einstein Condensate",
+    "authors": "Subrata Das, Anal Bhowmik, Koushik Mukherjee, Sonjoy Majumder",
+    "journal": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+    "doi": "https://doi.org/10.1088/1361-6455/ab42c4",
+    "doiText": "DOI: 10.1088/1361-6455/ab42c4"
+  },
+
+  {
+    "year": 2019,
+    "title": "Dynamic Polarizabilities and Magic Wavelengths of Sr+ for Focused Vortex Light",
+    "authors": "Anal Bhowmik, Sonjoy Majumder",
+    "journal": "Quantum Collisions and Confinement of Atomic and Molecular Species, and Photons: Select Proceedings of the 7th Topical Conference of ISAMP 2018",
+    "doi": "https://link.springer.com/chapter/10.1007/978-981-13-9969-5_4",
+    "doiText": "DOI: 10.1007/978-981-13-9969-5_4"
+  },
+
+  {
+    "year": 2018,
+    "title": "Tuning of non-paraxial effects of the Laguerre-Gaussian beam interacting with the two-component Bose-Einstein condensates",
+    "authors": "Anal Bhowmik, Sonjoy Majumder",
+    "journal": "Journal of Physics Communications",
+    "doi": "https://iopscience.iop.org/article/10.1088/2399-6528/aaf189",
+    "doiText": "DOI: 10.1088/2399-6528/aaf189"
+  },
+  {
+    "year": 2018,
+    "title": "Accurate estimations of electromagnetic transitions of Sn IV for stellar and interstellar media",
+    "authors": "Swapan Biswas, Arghya Das, Anal Bhowmik, Sonjoy Majumder",
+    "journal": "Monthly Notices of the Royal Astronomical Society",
+    "doi": "https://doi.org/10.1093/mnras/sty1015",
+    "doiText": "DOI: 10.1093/mnras/sty1015"
+  },
+  {
+    "year": 2018,
+    "title": "Density profiles of two-component Bose-Einstein condensates interacting with a Laguerre-Gaussian Beam",
+    "authors": "Anal Bhowmik, Pradip Kumar Mondal, Sonjoy Majumder, Bimalendu Deb",
+    "journal": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+    "doi": "https://iopscience.iop.org/article/10.1088/1361-6455/aac626",
+    "doiText": "DOI: 10.1088/1361-6455/aac626"
+  },
+  {
+    "year": 2018,
+    "title": "Transfer of Orbital Angular Momentum from Laguerre Gaussian Beam to Trapped Rydberg Atoms",
+    "authors": "Koushik Mukherjee, Pradip Mondal, Sonjoy Majumder, Bimalendu Dev",
+    "journal": "APS Division of Atomic, Molecular and Optical Physics Meeting Abstracts",
+    "doi": "https://ui.adsabs.harvard.edu/abs/2018APS..DMPM01054M/abstract",
+    "doiText": "DOI: 2018APS..DMPM01054M/abstract"
+  },
+  {
+    "year": 2018,
+    "title": "Optically generated vortex-antivortex superpositions in two-component Bose-Einstein condensate",
+    "authors": "Anal Bhowmik, Pradip Kumar Mondal, Sonjoy Majumder, Bimalendu Deb",
+    "journal": "APS Division of Atomic, Molecular and Optical Physics Meeting Abstracts",
+    "doi": "https://ui.adsabs.harvard.edu/abs/2018APS..DMPE01116B/abstract",
+    "doiText": "DOI: 2018APS..DMPE01116B/abstract"
+  },
+  {
+    "year": 2018,
+    "title": "Tunable magic wavelengths for trapping with focused Laguerre-Gaussian beams",
+    "authors": "Anal Bhowmik, Narendra Nath Dutta, and Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/PhysRevA.97.022511",
+    "doiText": "DOI: 10.1103/PhysRevA.97.022511"
+  },
+  {
+    "year": 2018,
+    "title": "Quantum Collisions and Confinement of Atomic and Molecular Species, and Photons",
+    "authors": "PC Deshmukh, E Krishnakumar, Stephan Fritzsche, M Krishnamurthy, Sonjoy Majumder",
+    "journal": "The 7th Topical Conference of ISAMP",
+    "doi": "https://link.springer.com/content/pdf/10.1007/978-981-13-9969-5.pdf",
+    "doiText": "DOI: 10.1007/978-981-13-9969-5"
+  }
+  ,
+  {
+    "year": 2017,
+    "title": "Electron-correlation study of Y III–Tc VII ions using a relativistic coupled-cluster theory",
+    "authors": "A Das, A Bhowmik, NN Dutta, S Majumder",
+    "journal": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+    "doi": "https://iopscience.iop.org/article/10.1088/1361-6455/aa9955/meta",
+    "doiText": "DOI: 10.1088/1361-6455/aa9955"
+  },
+  {
+    "year": 2017,
+    "title": "Interaction of a Laguerre–Gaussian beam with trapped Rydberg atoms",
+    "authors": "Koushik Mukherjee, Sonjoy Majumder, Pradip Kumar Mondal, Bimalendu Deb",
+    "journal": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+    "doi": "https://iopscience.iop.org/article/10.1088/1361-6455/aa90d3/meta",
+    "doiText": "DOI: 10.1088/1361-6455/aa90d3"
+  },
+  {
+    "year": 2017,
+    "title": "Transfer of Orbital and Spin angular momentum from non-paraxial optical vortex to atomic BEC",
+    "authors": "Anal Bhowmik, Pradip Kumar Mondal, Sonjoy Majumder, Bimalendu Deb",
+    "journal": "APS DAMOP Meeting Abstracts",
+    "doi": "https://ui.adsabs.harvard.edu/abs/2017APS..DMP.D1102B/abstract",
+    "doiText": "DOI: 2017APS..DMP.D1102B/abstract"
+  },
+  {
+    "year": 2017,
+    "title": "Study of coupled-cluster correlations on electromagnetic transitions and hyperfine structure constants of W VI",
+    "authors": "Anal Bhowmik, Sourav Roy, Narendra Nath Dutta, Sonjoy Majumder",
+    "journal": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+    "doi": "https://iopscience.iop.org/article/10.1088/1361-6455/aa6ccf/meta",
+    "doiText": "DOI: 10.1088/1361-6455/aa6ccf"
+  }
+]
