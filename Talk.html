@@ -120,78 +120,112 @@
       </div>
     </div>
   </nav>
-  <div style="height: 50px;"></div>
 
-    <section class="p-5 bg-intro" id="intro">
-    <div class="container">
-      <div class="h1 text-light text-center">
-        Atomic, Molecular & Quantum Information Group
-      </div>
-      <p class="h5 text-center text-light">
-            Department of Physics, Indian Institute of Technology Kharagpur
-          </p>
-      <div style="height: 20px;"></div>
-      <p class="h1 text-center text-light">
-            Talks
-          </p>
-    </div>
-  </section>
+  <section class="p-5 bg-intro mt-5" id="intro">
+  <div class="container">
+    <h1 class="text-light text-center">Atomic, Molecular & Quantum Information Group</h1>
+    <p class="h5 text-center text-light">
+      Department of Physics, Indian Institute of Technology Kharagpur
+    </p>
+    <h1 class="text-light text-center mt-3">Talks</h1>
+  </div>
+</section>
 
-    <div class="container my-5">
-  <div class="row g-5">
+  <div class="container my-5">
+  <div class="row g-5" id="talks-container"></div>
+</div>
 
-    <!-- ICTS Talk -->
-    <div class="col-md-6">
-      <div class="card shadow-lg border-0 rounded-3">
-        <div class="ratio ratio-16x9">
-          <iframe
-            src="https://www.youtube.com/embed/Fj5AYFDC6Lk"
-            title="Physics with Trapped Atoms, Molecules and Ions"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Physics with Trapped Atoms, Molecules and Ions</h5>
-          <p class="card-text">
-            <strong>Lecture Place:</strong> ICTS Bengaluru<br>
-            <strong>Date:</strong> May 12, 2022
-          </p>
-          <a href="https://www.youtube.com/watch?v=Fj5AYFDC6Lk" 
-             target="_blank" class="btn btn-primary btn-sm" rel="noopener">
-            Watch on YouTube
-          </a>
-        </div>
-      </div>
-    </div>
+<script>
+  // JSON Data — just modify, no HTML editing needed!
+  const talksData = [
+    {
+      year: 2025,
+      title: "WORKSHOP ON QUANTUM COMPUTATIONS AND ITS APPLICATION IN MOLECULAR STRUCTURE",
+      place: "CCDS, IIT Kharagpur",
+      date: "March 5, 2025",
+      embed: "https://www.youtube.com/embed/XXCXG1OwDwI?si=G2Tkif1QZ_tP8BVv",
+      url: "https://youtu.be/XXCXG1OwDwI?si=d3k-0iWFvpelSMKg"
+    },
+    {
+      year: 2025,
+      title: "Introduction to Quantum Computation & Quantum Information",
+      place: "Prabhat Kumar College, Contai", 
+      date: "March 6, 2025",
+      embed: "https://www.youtube.com/embed/IOEZ0UvHZ_s?si=We3zQxcmbhgbyvgO",
+      url: "https://youtu.be/IOEZ0UvHZ_s?si=-1gXBnjw4dWosmF1"
+    },
+    {
+      year: 2023,
+      title: "QIQT 23",
+      place: "IISER Kolkata",
+      date: "May 26, 2023",
+      embed: "https://www.youtube.com/embed/LwYFjAra3b0",
+      url: "https://www.youtube.com/watch?v=LwYFjAra3b0"
+    },
+    {
+      year: 2022,
+      title: "Physics with Trapped Atoms, Molecules and Ions",
+      place: "ICTS Bengaluru",
+      date: "May 12, 2022",
+      embed: "https://www.youtube.com/embed/Fj5AYFDC6Lk",
+      url: "https://www.youtube.com/watch?v=Fj5AYFDC6Lk"
+    },
+    {
+      year: 2021,
+      title: "Minicourse on Quantum Optics by CAMOST",
+      place: "IISER Tirupati",
+      date: "July 19, 2021",
+      embed: "https://www.youtube.com/embed/EUIC2owD5WQ?si=L1r407MGtMwLGt-X",
+      url: "https://youtube.com/playlist?list=PL0xRJEco9VEdcKZ0HXkbFgQAFW841as4x&si=o1gkHCukC9g4zmb1"
+    }
+  ];
 
-    <!-- QIQT Talk -->
-    <div class="col-md-6">
-      <div class="card shadow-lg border-0 rounded-3">
-        <div class="ratio ratio-16x9">
-          <iframe
-            src="https://www.youtube.com/embed/LwYFjAra3b0"
-            title="QIQT 23"
-            allowfullscreen
-          ></iframe>
+  function renderTalkTiles() {
+    const container = document.getElementById("talks-container");
+
+    // Sort latest first
+    talksData.sort((a, b) => b.year - a.year);
+
+    let html = "";
+    talksData.forEach(talk => {
+      html += `
+        <div class="col-md-6 d-flex">
+          <div class="card shadow-lg border-0 rounded-3 w-100"
+               style="display:flex; flex-direction:column; height:100%;">
+            
+            <div class="ratio ratio-16x9">
+              <iframe src="${talk.embed}" title="${talk.title}" allowfullscreen></iframe>
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">${talk.title}</h5>
+              <p class="card-text">
+                <strong>Lecture Place:</strong> ${talk.place}<br>
+                <strong>Date:</strong> ${talk.date}
+              </p>
+
+              <a href="${talk.url}"
+                 target="_blank"
+                 rel="noopener"
+                 class="btn btn-primary btn-sm mt-auto">
+                Watch on YouTube
+              </a>
+            </div>
+
+          </div>
         </div>
-        <div class="card-body">
-          <h5 class="card-title fw-bold">QIQT 23</h5>
-          <p class="card-text">
-            <strong>Lecture Place:</strong> IISER Kolkata<br>
-            <strong>Date:</strong> May 26, 2023
-          </p>
-          <a href="https://www.youtube.com/watch?v=LwYFjAra3b0" 
-             target="_blank" class="btn btn-primary btn-sm" rel="noopener">
-            Watch on YouTube
-          </a>
-        </div>
-      </div>
-    </div>
+      `;
+    });
+
+    container.innerHTML = html;
+  }
+
+  renderTalkTiles();
+</script>
+
 
   </div>
 </div>
-
-
 
 
     <footer class="bg-dark text-light pt-2">
@@ -201,7 +235,7 @@
             <div class="text-center">
 
               <h5>Contact Us</h5>
-              <p>Email: smlab.phy@gmail.com<br>
+              <p>Email: sonjoym@phy.iitkgp.ac.in<br>
               Phone: 83808</p>
             </div>
           </div>
