@@ -43,8 +43,8 @@
         "dateOfStart": "July 7, 2025",
         "position": "PhD Scholar, Physics",
         "interests": "Quantum Photonics",
-        "photo": "./assets/img/asishp.png",
-        "linkedin":"https://www.linkedin.com/in/arijit-sikder-900b10376"
+        "photo": "./assets/img/asish2.png",
+        "linkedin":"https://www.linkedin.com/in/asish-p-b08129362"
     },
     {
         "Name": "Saptadeep Chatterjee",
@@ -174,6 +174,7 @@
         "position": "PhD Scholar, CCDS (PMRF)",
         "interests": "Quantum Computing",
         "ResearchGate": "https://www.researchgate.net/profile/Harshdeep-Singh-24",
+        "linkedin": "https://www.linkedin.com/in/harshdeepsingh3",
         "photo": "./assets/img/HarshdeepSingh.jpeg"
     },
     {
@@ -185,6 +186,7 @@
         "photo": "./assets/img/ArpanaSaboo.jpeg",
         "ResearchGate": "https://www.researchgate.net/profile/Arpana-Saboo",
         "GoogleScholar": "https://scholar.google.com/citations?user=MxF3nWEAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/arpana-saboo-a03a34201",
         "webpage": "https://arpanasaboo.github.io/site"
     },
     {
@@ -233,6 +235,7 @@
         "graduated": "yes",
         "dateOfCompletion": "Jan 30, 2023",
         "webpage": "https://rohitkishanray.com",
+        "linkedin": "https://www.linkedin.com/in/rohit-kishan-ray",
         "photo": "./assets/img/rkr.jpg"
     },
     {
