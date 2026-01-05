@@ -64,7 +64,7 @@
         "interests": "Non Hermitian Physics, Open quantum systems",
         "photo": "./assets/img/abhinabap.png",
         "GoogleScholar":"https://scholar.google.com/citations?user=avTdwusAAAAJ",
-        "ResearchGate":"https://www.researchgate.net/profile/Abhinaba-Pahari",
+        "ResearchGate":"https://www.researchgate.net/profile/Abhinaba-Pahari/",
         "linkedin":"linkedin.com/in/abhinabapahari"
     },
     {
@@ -82,7 +82,8 @@
         "dateOfStart": "Dec 30, 2022",
         "position": "PhD Scholar, Physics",
         "interests": "Atomic, molecular and optical physics",
-        "photo": "./assets/img/susovan_giri.jpg"
+        "photo": "./assets/img/susovan_giri.jpg",
+        "linkedin": "https://www.linkedin.com/in/susovan-giri-83125b326/"
     },
 {
         "Name": "Vipin",
@@ -109,18 +110,20 @@
         "photo": "./assets/img/mtanima.jpg",
         "ResearchGate": "https://www.researchgate.net/profile/Tanima_Mondal/research",
         "GoogleScholar": "https://scholar.google.com/citations?user=PS2cdCQAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/tanima-mondal-5480a21b6/",
         "webpage": "https://tanima14.github.io/mtanima.github.io/"
     },
     {
         "Name": "Sabyasachi Mukhopadhyay",
         "Email": "sabyasachi@kgpian.iitkgp.ac.in",
-        "dateOfStart": "Jul 1, 2022",
+        "dateOfStart": "Aug 1, 2022",
         "position": "PhD Scholar, Centre For Computational And Data Sciences, IIT Kharagpur",
         "interests": "Biomedical Optical Imaging",
         "photo": "./assets/img/bsabyasachi.jpg",
         "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Mukhopadhyay-4/3",
         "GoogleScholar": "https://scholar.google.co.in/citations?user=riMLn_YAAAAJ&hl=en",
-        "webpage": "https://sites.google.com/view/sabyasachimukhopadhyay/home?authuser=0"
+        "webpage": "https://sites.google.com/view/sabyasachimukhopadhyay/home?authuser=0",
+        "linkedin": "https://www.linkedin.com/in/sabyasachi-mukhopadhyay-303a1027/"
     },
     {
         "Name": "Deepu Singh ",
@@ -154,7 +157,8 @@
         "position": "PhD Scholar, Physics (PMRF)",
         "interests": "Quantum Computation",
         "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Chakraborty-11",
-        "photo": "./assets/img/SabyasachiChakraborty.jpg"
+        "photo": "./assets/img/SabyasachiChakraborty.jpg",
+        "linkedin": "https://www.linkedin.com/in/sabyasachi-chakraborty-8b6404192/"
     },
     {
         "Name": "Hari Sadhan Ghosh ",
@@ -165,14 +169,15 @@
         "ResearchGate": "https://www.researchgate.net/profile/Hari-Ghosh",
         "GoogleScholar": "https://scholar.google.com/citations?user=98XlmcYAAAAJ&hl=en",
         "photo": "./assets/img/harisadhanghosh.jpg",
-        "webpage": "https://harisadhanghosh4.wixsite.com/hari-sadhan-ghosh"
+        "webpage": "https://harisadhanghosh4.wixsite.com/hari-sadhan-ghosh",
+        "linkedin": "https://www.linkedin.com/in/hari-sadhan-ghosh-737b04221"
     },
     {
         "Name": "Harshdeep Singh",
         "Email": "harshdeeps036@gmail.com",
         "dateOfStart": "Aug 2, 2021",
         "graduated": "yes",
-        "dateOfCompletion": "2025",
+        "dateOfCompletion": "Nov 11, 2025",
         "position": "Postdoc, Chalmers University of Technology, Sweden",
         "interests": "Quantum Computing",
         "ResearchGate": "https://www.researchgate.net/profile/Harshdeep-Singh-24",
