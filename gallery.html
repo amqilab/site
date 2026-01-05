@@ -1,267 +1,415 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AMQI</title>
+  <title>AMQI | Gallery</title>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-  <!-- Optional JavaScript; choose one of the two! -->
-
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
     body {
-      margin: 0;
-      font-family: Arial;
+      background: #f3f4f6;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+    footer {
+    margin-top: auto;
+    }
+    html, body {
+    height: 100%;
+    margin: 0;
     }
 
-    header {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1em;
+    /* ROW-WISE MASONRY GRID (UNIFORM HEIGHT) */
+    .masonry {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      padding: 20px;
+      justify-content: center;
     }
 
-    /* The grid: Four equal columns that floats next to each other */
-    .column {
-      float: left;
-      width: 25%;
-      padding: 10px;
+    .masonry img {
+      width: calc(25% - 14px);
+      height: 220px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 8px;
+      cursor: zoom-in;
+      transition: transform .2s ease-in-out;
     }
 
-    /* Style the images inside the grid */
-    .column img {
-      opacity: 0.8;
-      cursor: pointer;
+    @media (max-width: 992px) {
+      .masonry img { width: calc(33.33% - 14px); height: 200px; }
     }
 
-    .column img:hover {
+    @media (max-width: 768px) {
+      .masonry img { width: calc(50% - 14px); height: 180px; }
+    }
+
+    @media (max-width: 480px) {
+      .masonry img { width: 100%; height: 180px; }
+    }
+
+    .masonry img:hover {
+      transform: scale(1.03);
+    }
+
+    /* Fullscreen Viewer */
+    .viewer {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.92);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.35s ease-in-out;
+      z-index: 9999;
+    }
+
+    .viewer.active {
       opacity: 1;
+      pointer-events: auto;
     }
 
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
+    #viewerImg {
+      max-width: 90vw;
+      max-height: 70vh;
+      object-fit: contain;
+      border-radius: 10px;
+      transition: transform 0.3s;
     }
 
-    /* The expanding image container */
-    .container {
-      position: relative;
-      display: none;
+    #viewerInfo {
+      text-align: center;
+      margin-top: 15px;
+      color: #fff;
     }
 
-    /* Expanding image text */
-    #imgtext {
-      position: absolute;
-      bottom: 15px;
-      left: 15px;
-      color: white;
-      font-size: 20px;
+    #viewerTag {
+      margin-top: 4px;
+      background: #00d4ff;
+      color: #000;
+      padding: 3px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      display: inline-block;
     }
 
-    /* Closable button inside the expanded image */
-    .closebtn {
-      position: absolute;
-      top: 10px;
-      right: 15px;
-      color: white;
-      font-size: 35px;
+    #imgCount {
+      font-size: 13px;
+      color: #ccc;
+      margin-top: 4px;
+    }
+
+    /* Navigation Arrows */
+    .arrowBtn {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 40px;
+      color: #ffffffb0;
       cursor: pointer;
+      -webkit-user-select:none;
+      user-select: none;
+      padding: 10px;
+      transition: .25s;
+      z-index: 10000;
+    }
+
+    .arrowBtn:hover { color: #fff; }
+    #leftArrow { left: 25px; }
+    #rightArrow { right: 25px; }
+
+    /* Simple Filter Bar */
+    .filter-bar {
+      position: sticky;
+      top: 65px;
+      z-index: 20;
+      background: rgba(60, 60, 60, 0.75);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      padding: 10px 20px;
+      text-align: right;
+    }
+
+    #filterDropdown {
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      background: white;
+      font-size: 15px;
+    }
+
+    /* Load More Button */
+    #loadMoreBtn {
+      border-radius: 25px;
+      padding: 8px 24px;
+      font-size: 15px;
     }
   </style>
 </head>
-<link href="assets/css/style.css" rel="stylesheet">
 
 <body>
-  <nav id="navbar_top" class="navbar navbar-expand-md bg-dark navbar-dark shadow">
-    <div class="container">
-      <a href="index.html" class="navbar-brand align-self-center">
-        <img src="assets/img/droplet.png" class="rounded-circle" height="40">
-        AMQI
-      </a>
+<link href="assets/css/style.css" rel="stylesheet">
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="group.html" class="nav-link">Group Members</a>
-          </li>
-          <li class="nav-item">
-            <a href="publication.html" class="nav-link">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a href="Talk.html" class="nav-link">Talks</a>
-          </li>
-          <li class="nav-item">
-            <a href="gallery.html" class="nav-link">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a href="http://10.33.1.110/nextcloud" class="nav-link">Cloud</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header>
-    <div style="text-align:center">
-      <h2>Gallery</h2>
-    </div>
-  </header>
-
-  <!-- The four columns -->
-
-  <div class="row">
-    <div class="column">
-      <img src="Gallery/PRL_SM_1.jpg" alt="PRL conference 2024" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/PRL_SM_2.jpg" alt="PRL conference 2024" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/PRL_SM_3.jpg" alt="PRL conference 2024" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/PRL_SM_4.jpg" alt="PRL conference 2024" style="width:100%" onclick="myFunction(this);">
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img src="Gallery/IIT_1.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/IIT_2.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/IIT_3.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/workshop.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img src="Gallery/SM_1.JPG" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/SM_2.JPG" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/SM_3.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/Anal.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img src="Gallery/Anal_arghya_subrata.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/Dilip_Arghya_def.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/sub_def.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/Sub_def_2.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img src="Gallery/rohit.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/rohit_2.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/SSH.jpg" alt="IIT" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/SM_group.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img src="Gallery/sm_home_1.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/subrata_japan.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/soumya_conf_2.JPG" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/soumya_conf_3.JPG" alt="Lights" style="width:100%" onclick="myFunction(this);">
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img src="Gallery/Soumya_rsday2.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/rsday_1.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/soumya_badhonnef.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="Gallery/RSS.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-    </div>
-  </div>
-
+<!-- Navbar (unchanged) -->
+<nav id="navbar_top" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top shadow">
   <div class="container">
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-    <img id="expandedImg" style="width:100%">
-    <div id="imgtext"></div>
+    <a href="index.html" class="navbar-brand align-self-center">
+      <img src="assets/img/droplet.png" alt="droplet" class="rounded-circle" height="40"> AMQI
+    </a>
+
+    <button class="navbar-toggler" type="button" title="navmenu" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="group.html" class="nav-link">Group Members</a></li>
+        <li class="nav-item"><a href="publication.html" class="nav-link">Publications</a></li>
+        <li class="nav-item"><a href="Talk.html" class="nav-link">Talks</a></li>
+        <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+        <li class="nav-item"><a href="http://10.33.1.110/nextcloud" class="nav-link">Cloud</a></li>
+      </ul>
+    </div>
   </div>
+</nav>
 
-  <script>
-    function myFunction(imgs) {
-      var expandImg = document.getElementById("expandedImg");
-      var imgText = document.getElementById("imgtext");
-      expandImg.src = imgs.src;
-      imgText.innerHTML = imgs.alt;
-      expandImg.parentElement.style.display = "block";
-    }
-  </script>
+<!-- <div style="height: 60px;"></div> -->
+
+<header class="bg-dark text-light text-center py-4 mt-5">
+  <h2>Gallery</h2>
+</header>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <label><strong>Filter:</strong></label>
+  <select id="filterDropdown" title="tags" onchange="applyFilter()">
+    <option value="all">All Categories</option>
+    <option value="conference">Conference</option>
+    <option value="event">Events</option>
+    <option value="seminar">Seminar</option>
+    <option value="misc">Miscellaneous</option>
+  </select>
+</div>
+
+<!-- GALLERY -->
+<div id="gallery" class="masonry"></div>
+
+<div class="text-center mb-4">
+  <button id="loadMoreBtn" class="btn btn-primary">Load More</button>
+</div>
+
+<!-- FULLSCREEN VIEWER -->
+<div id="viewer" class="viewer" onclick="closeViewer(event)">
+  <span id="leftArrow" class="arrowBtn" onclick="prevImage(event)">&#10094;</span>
+
+  <img id="viewerImg" title="Image View">
+
+  <span id="rightArrow" class="arrowBtn" onclick="nextImage(event)">&#10095;</span>
+
+  <div id="viewerInfo">
+    <div id="viewerTitle"></div>
+    <div id="viewerDesc"></div>
+    <div id="viewerTag"></div>
+    <!-- <div id="imgCount"></div> -->
+  </div>
+</div>
+
+<script>
+/* Device-based load size */
+const IMAGES_PER_LOAD = window.innerWidth < 768 ? 12 : 20;
+
+/* Image JSON (with dates) */
+let images = [
+  { src: "Gallery/PRL_SM_1.jpg", title: "PRL Conference 2024", desc: "", tag: "conference", date: "2024-02-15" }, 
+  { src: "Gallery/PRL_SM_2.jpg", title: "PRL Conference 2024", desc: "", tag: "conference", date: "2024-02-15" }, 
+  { src: "Gallery/PRL_SM_3.jpg", title: "PRL Conference 2024", desc: "Poster session.", tag: "conference", date: "2024-02-15" }, 
+  { src: "Gallery/PRL_SM_4.jpg", title: "PRL Conference 2024", desc: "", tag: "conference", date: "2024-02-15" }, 
+  { src: "Gallery/IIT_1.jpg", title: "IIT Main Building", desc: "", tag: "misc", date: "2023-11-10" }, 
+  { src: "Gallery/IIT_2.jpg", title: "IIT Old Building/Nehru Meuseum", desc: "", tag: "misc", date: "2023-11-10" }, 
+  { src: "Gallery/IIT_3.jpg", title: "Clock Tower", desc: "", tag: "misc", date: "2023-11-10" }, 
+  { src: "Gallery/workshop.jpg", title: "Short Course on Quantum Information & Computation", desc: "", tag: "event", date: "2023-07-24" }, 
+  { src: "Gallery/SM_1.JPG", title: "Research Scholar Day 2023", desc: "", tag: "event", date: "2023-07-24" }, 
+  { src: "Gallery/SM_2.JPG", title: "Research Scholar Day 2023", desc: "", tag: "event", date: "2022-09-12" }, 
+  { src: "Gallery/SM_3.jpg", title: "", desc: "", tag: "conference", date: "2022-09-12" },
+  { src: "Gallery/Anal.jpg", title: "", desc: "", tag: "conference", date: "2021-03-01" }, 
+  { src: "Gallery/Anal_arghya_subrata.jpg", title: "", desc: "", tag: "misc", date: "2021-03-01" }, 
+  { src: "Gallery/brh_hallday.jpg", title: "", desc: "", tag: "misc", date: "2021-03-01" }, 
+  { src: "Gallery/Dilip_Arghya_def.jpg", title: "", desc: "", tag: "misc", date: "2021-03-01" }, 
+  { src: "Gallery/rohit.jpg", title: "", desc: "", tag: "seminar", date: "2021-03-01" }, 
+  // { src: "Gallery/rohit_2.jpg", title: "", desc: "", tag: "conference", date: "2021-03-01" }, 
+  { src: "Gallery/Rohit_3.jpg", title: "Synopsis Seminar", desc: "\'Finite-Dimensional Quantum Systems under the Fourth Law of Thermodynamics\'", tag: "seminar", date: "2021-03-01" }, 
+  { src: "Gallery/rsday_1.jpg", title: "", desc: "", tag: "conference", date: "2021-03-01" }, 
+  { src: "Gallery/RSS.jpg", title: "", desc: "", tag: "misc", date: "2021-03-01" }, 
+  { src: "Gallery/SM_home_1.jpg", title: "", desc: "", tag: "misc", date: "2021-03-01" }, 
+  { src: "Gallery/SM_group.jpg", title: "", desc: "", tag: "misc", date: "2021-03-01" }, 
+  { src: "Gallery/soumya_badhonnef.jpg", title: "", desc: "", tag: "conference", date: "2021-03-01" }, 
+  { src: "Gallery/soumya_conf_2.jpg", title: "", desc: "", tag: "conference", date: "2021-03-01" }, 
+  // { src: "Gallery/soumya_conf_3.jpg", title: "", desc: "", tag: "conference", date: "2021-03-01" }, 
+  { src: "Gallery/soumya_rsday2.jpg", title: "", desc: "", tag: "conference", date: "2021-03-01" },
+  { src: "Gallery/SSH.jpg", title: "", desc: "", tag: "misc", date: "2021-03-01" }, 
+  { src: "Gallery/sub_def.jpg", title: "", desc: "", tag: "misc", date: "2021-03-01" }, 
+  { src: "Gallery/Sub_def_2.jpg", title: "", desc: "", tag: "seminar", date: "2021-03-01" },
+];
+
+/* Sort newest → oldest */
+images.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+let visibleCount = IMAGES_PER_LOAD;
+let activeFilter = "all";
+let filteredList = images;
+let currentIndex = 0;
+
+function applyFilter() {
+  activeFilter = document.getElementById("filterDropdown").value;
+  filteredList = images.filter(img => activeFilter === "all" || img.tag === activeFilter);
+  visibleCount = IMAGES_PER_LOAD;
+  renderGallery();
+}
+
+function renderGallery() {
+  const gallery = document.getElementById("gallery");
+  gallery.innerHTML = "";
+
+  filteredList.slice(0, visibleCount).forEach((img, index) => {
+    let el = document.createElement("img");
+    el.src = img.src;
+    el.onclick = () => openViewer(index);
+    gallery.appendChild(el);
+  });
+
+  document.getElementById("loadMoreBtn").style.display =
+    visibleCount >= filteredList.length ? "none" : "inline-block";
+}
+
+function loadMore() {
+  visibleCount += IMAGES_PER_LOAD;
+  renderGallery();
+}
+
+function openViewer(index) {
+  currentIndex = index;
+  updateViewer();
+  document.getElementById("viewer").classList.add("active");
+}
+
+function updateViewer() {
+  let img = filteredList[currentIndex];
+  document.getElementById("viewerImg").src = img.src;
+  document.getElementById("viewerTitle").innerText = img.title;
+  document.getElementById("viewerDesc").innerText = img.desc;
+  document.getElementById("viewerTag").innerText = img.tag.toUpperCase();
+  // document.getElementById("imgCount").innerText =
+  //   `Photo ${currentIndex + 1} / ${filteredList.length}`;
+}
+
+function closeViewer(e) {
+  if (e.target.id === "viewer") {
+    document.getElementById("viewer").classList.remove("active");
+  }
+}
+
+function prevImage(e) {
+  e.stopPropagation();
+  if (currentIndex > 0) { currentIndex--; updateViewer(); }
+}
+
+function nextImage(e) {
+  e.stopPropagation();
+  if (currentIndex < filteredList.length - 1) { currentIndex++; updateViewer(); }
+}
+
+/* Keyboard Arrow Navigation FIXED */
+document.addEventListener("keydown", (e) => {
+  let viewer = document.getElementById("viewer");
+  if (!viewer.classList.contains("active")) return;
+
+  if (e.key === "ArrowLeft") prevImage(e);
+  if (e.key === "ArrowRight") nextImage(e);
+  if (e.key === "Escape") viewer.classList.remove("active");
+});
+
+/* Init */
+document.getElementById("loadMoreBtn").onclick = loadMore;
+renderGallery();
+</script>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-light pt-4 pb-3">
+  <div class="container">
+    <div class="row g-4 text-center">
+
+      <!-- Contact -->
+      <div class="col-md-4">
+        <h5 class="fw-bold">Contact Us</h5>
+        <p class="mb-1">Email: sonjoym@phy.iitkgp.ac.in</p>
+        <p class="mb-2">Phone: 83808</p>
+
+        <div class="d-flex justify-content-center align-items-center gap-3 mt-2">
+          <span class="fw-bold small">Follow us</span>
+
+          <a href="https://www.linkedin.com/company/amqi-lab/" 
+             target="_blank" rel="noopener" 
+             class="social-icon" title="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+
+          <!-- <a href="mailto:sonjoym@phy.iitkgp.ac.in" 
+             class="social-icon" title="Email">
+            <i class="bi bi-envelope-fill"></i>
+          </a> -->
+
+          <!-- <a href="https://www.youtube.com/@amqilab" 
+            target="_blank" rel="noopener"
+            class="social-icon" title="YouTube Channel">
+            <i class="bi bi-youtube"></i>
+          </a> -->
+
+
+        </div>
+      </div>
+
+      <!-- Branding -->
+      <div class="col-md-4">
+        <h6 class="fw-bold mb-1">Atomic, Molecular & Quantum Information Group</h6>
+        <p class="small opacity-75 mb-2">
+          Department of Physics, IIT Kharagpur
+        </p>
+
+        <p class="small mt-3 mb-0 opacity-75">
+          Designed by <strong>Subrata & Soumya</strong>
+        </p>
+      </div>
+
+      <!-- Address -->
+      <div class="col-md-4">
+        <h5 class="fw-bold">Address</h5>
+        <p class="mb-0 small">
+          Atomic, Molecular & Quantum Information (AMQI) Lab<br>
+          C-136, Department of Physics<br>
+          IIT Kharagpur, West Bengal, India
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary my-3">
+
+    <p class="text-center small opacity-50 mb-0">
+      © 2025 AMQI Lab — All Rights Reserved
+    </p>
+  </div>
+</footer>
 </body>
-
 </html>
