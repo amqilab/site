@@ -33,7 +33,17 @@
       font-family: Arial, sans-serif;
       background-color: #e0dcdc;
       margin: 0;
+      height: 100%;
       /*             padding: 10px; */
+    }
+    .page-wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page-content {
+      flex: 1;   /* pushes footer to bottom */
     }
 
     /*         header {
@@ -80,6 +90,7 @@
 <link href="assets/css/style.css" rel="stylesheet">
 
 <body>
+  <div class="page-wrapper">
   <nav id="navbar_top" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top shadow">
     <div class="container">
       <!--             <a href="index.html" class="navbar-brand">AMQI</a> -->
@@ -118,7 +129,7 @@
     </div>
   </nav>
   <!-- <div style="margin-top: 50px;"></div> -->
-
+  <main class="page-content">
   <section class="p-5 bg-intro mt-5" id="intro">
   <div class="container">
     <h1 class="text-light text-center">Atomic, Molecular & Quantum Information Group</h1>
@@ -146,6 +157,7 @@
 
   <div id="pub-container"></div>
 </div>
+</main>
 
 <script>
   let publicationsData = [];
@@ -248,32 +260,46 @@
 
     <!-- Continue adding more years and publications as needed -->
 
-    <footer class="bg-dark text-light pt-4 pb-3">
+ <footer class="bg-dark text-light pt-4 pb-3">
   <div class="container">
     <div class="row g-4 text-center">
 
       <!-- Contact -->
       <div class="col-md-4">
         <h5 class="fw-bold">Contact Us</h5>
-        <p class="mb-1">sonjoym@phy.iitkgp.ac.in</p>
-        <p class="mb-3">+91-83808</p>
+        <p class="mb-1">Email: sonjoym@phy.iitkgp.ac.in</p>
+        <p class="mb-2">Phone: 83808</p>
 
-        <!-- Follow us -->
-        <!-- <div class="d-flex justify-content-center align-items-center gap-2 mt-2">
-          <span class="fw-bold">Follow us:</span>
-          <a href="https://www.linkedin.com/" title="linkedin page" target="_blank" class="social-icon" rel="noopener">
+        <div class="d-flex justify-content-center align-items-center gap-3 mt-2">
+          <span class="fw-bold small">Follow us</span>
+
+          <a href="https://www.linkedin.com/company/amqi-lab/" 
+             target="_blank" rel="noopener" 
+             class="social-icon" title="LinkedIn">
             <i class="bi bi-linkedin"></i>
-          </a> -->
-          <!-- <a href="mailto:smlab.phy@gmail.com" class="social-icon" title="email">
+          </a>
+
+          <!-- <a href="mailto:sonjoym@phy.iitkgp.ac.in" 
+             class="social-icon" title="Email">
             <i class="bi bi-envelope-fill"></i>
           </a> -->
-        <!-- </div> -->
+
+          <!-- <a href="https://www.youtube.com/@amqilab" 
+            target="_blank" rel="noopener"
+            class="social-icon" title="YouTube Channel">
+            <i class="bi bi-youtube"></i>
+          </a> -->
+
+
+        </div>
       </div>
 
       <!-- Branding -->
       <div class="col-md-4">
-        <h6 class="fw-bold">Atoms, Molecules & Quantum Information Group</h6>
-        <p class="small mb-2 opacity-75">Department of Physics, IIT Kharagpur</p>
+        <h6 class="fw-bold mb-1">Atomic, Molecular & Quantum Information Group</h6>
+        <p class="small opacity-75 mb-2">
+          Department of Physics, IIT Kharagpur
+        </p>
 
         <p class="small mt-3 mb-0 opacity-75">
           Designed by <strong>Subrata & Soumya</strong>
@@ -283,16 +309,23 @@
       <!-- Address -->
       <div class="col-md-4">
         <h5 class="fw-bold">Address</h5>
-        <p class="mb-0">
-          Atomic & Molecular Physics Lab<br>
-          C-136, Dept. of Physics<br>
-          IIT Kharagpur, India
+        <p class="mb-0 small">
+          Atomic, Molecular & Quantum Information (AMQI) Lab<br>
+          C-136, Department of Physics<br>
+          IIT Kharagpur, West Bengal, India
         </p>
       </div>
 
     </div>
+
+    <hr class="border-secondary my-3">
+
+    <p class="text-center small opacity-50 mb-0">
+      © 2025 AMQI Lab — All Rights Reserved
+    </p>
   </div>
 </footer>
+</div>
 
 </body>
 
