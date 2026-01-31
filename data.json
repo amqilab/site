@@ -65,7 +65,7 @@
         "photo": "./assets/img/abhinabap.png",
         "GoogleScholar":"https://scholar.google.com/citations?user=avTdwusAAAAJ",
         "ResearchGate":"https://www.researchgate.net/profile/Abhinaba-Pahari/",
-        "linkedin":"linkedin.com/in/abhinabapahari"
+        "linkedin":"https://www.linkedin.com/in/abhinabapahari"
     },
     {
         "Name": "Dwij Brahmbhatt",
@@ -131,6 +131,7 @@
         "dateOfStart": "Jul 1, 2023",
         "position": "Ph.D scholar, Physics",
         "interests": "Atomic, molecular and optical physics",
+        "linkedin":"https://www.linkedin.com/in/deepu-singh-yadav-85982325b/",
         "photo": "./assets/img/Deepu_Singh.jpg"
     },
     {
@@ -139,6 +140,7 @@
         "dateOfStart": "Jul 1, 2023",
         "position": "Ph.D scholar, Physics",
         "interests": "Atomic, molecular and optical physics",
+        "linkedin": "https://www.linkedin.com/in/ranit-bose-768109215/",
         "photo": "./assets/img/Ranit_Bose.jpg"
     },
     {
