@@ -1,19 +1,27 @@
 [
   {
+    "year": 2026,
+    "title": "Rotation-triggered Kelvin-Helmholtz and counter-superflow instabilities in a three-component Bose-Einstein condensate",
+    "authors": "Susovan Giri, Arpana Saboo, Hari Sadhan Ghosh, Vipin, Sonjoy Majumder",
+    "journal": "arXiv",
+    "doi": "https://doi.org/10.48550/arXiv.2603.19207",
+    "doiText": "DOI: arXiv:2603.19207"
+  },
+  {
+    "year": 2026,
+    "title": "Continuous-time quantum walk on a random graph using quantum circuits",
+    "authors": "Sabyasachi Chakraborty, Rohit Sarma Sarkar, Sonjoy Majumder, Rohit Kishan Ray",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/6zfy-8h5y",
+    "doiText": "DOI: Phys. Rev. A 113, 032430"
+  },
+  {
     "year": 2025,
     "title": "Multi Messenger Study of GRB 221009A with VHE Gamma-ray and Neutrino Afterglow from a Gaussian Structured Jet",
     "authors": "T. Mondal, S. Razzaque, JC. Joshi, S. Majumder, D. Bose",
     "journal": "arXiv",
     "doi": "https://doi.org/10.48550/arXiv.2511.13633",
     "doiText": "DOI: arXiv.2511.13633"
-  },
-  {
-    "year": 2025,
-    "title": "Continuous-time quantum walk on a random graph using quantum circuits",
-    "authors": "Sabyasachi Chakraborty, Rohit Sarma Sarkar, Sonjoy Majumder, Rohit Kishan Ray",
-    "journal": "Physical Review A",
-    "doi": "https://doi.org/10.1103/6zfy-8h5y",
-    "doiText": "DOI: Phys. Rev. A 113, 032430"
   },
   {
     "year": 2025,
