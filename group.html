@@ -7,7 +7,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Group Members</title>
+  <title>AMQI | Group Members</title>
+  <link rel="icon" type="image/png" href="assets/icons/logo.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg" /> 
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -72,36 +74,34 @@
         </ul>
       </div>
     </div>
-  </nav>
-  <div style="height: 50px;"></div>
-  
-  <section class="p-5 bg-intro" id="intro">
-    <div class="container">
-      <div class="h1 text-light text-center">
-        Atomic, Molecular & Quantum Information Group
-      </div>
-      <p class="h5 text-center text-light">
-            Department of Physics, Indian Institute of Technology Kharagpur
-          </p>
-      <div style="height: 20px;"></div>
-      <p class="h1 text-center text-light">
-            Group Members
-          </p>
-    </div>
+  </nav>  
+  <section id="intro" class="p-5 pb-3 bg-intro mt-5">
+  <div class="container text-center hero-content">
+    <h1 class="hero-title">
+      Atomic, Molecular & Quantum Information Group
+    </h1>
+    <p class="hero-subtitle">
+      Department of Physics, Indian Institute of Technology Kharagpur
+    </p>
+    <!-- <div class="hero-divider"></div> -->
+    <p class="h1 text-center text-light">Group Members</p>
+  </div>
   </section>
 
   <!-- Group Head Section -->
   <section class="p-5 text-center text-sm-start bg-present" id="groupHead">
-    <div class="h1 text-center text-dark p-3">Group Head</div>
+    <div class="h1 text-center text-dark p-3 fw-bold">Group Head</div>
     <div class="container">
       <div class="row justify-content-center align-self-center">
         <div class="col-lg-4 col-sm">
-          <img src="assets/img/SM_1.png" class=" p-2 img-fluid rounded-circle full-width" alt="...">
+          <img loading="lazy" src="assets/img/SM_1.png" class=" p-2 img-fluid rounded-circle full-width" alt="...">
         </div>
         <div class="col-lg-4 col-sm align-self-center">
           <div class="text-center">
             <h4 class="text-dark">Sonjoy Majumder</h4>
-            <p style="color:rgb(137, 137, 137)">Professor, Department of Physics </br>Indian Institute of Technology Kharagpur</p>
+            <!-- <p style="color:rgb(137, 137, 137)"> -->
+              <p class="text-secondary mb-0">
+              Professor, Department of Physics </br>Indian Institute of Technology Kharagpur</p>
             <a
               href="mailto:sonjoym@phy.iitkgp.ac.in"
               class="text-muted text-decoration-none d-inline-block mb-3"
@@ -114,15 +114,20 @@
   <div class="d-flex justify-content-center gap-3 mt-2">
 
     <!-- Google Scholar -->
-    <a href="https://scholar.google.com/citations?user=EQMenpkAAAAJ&hl=en"
+    <a href="https://scholar.google.com/citations?user=EQMenpkAAAAJ&hl=en" class="pi-icon"
        target="_blank" title="Google Scholar" rel="noopener">
       <img src="assets/icons/Google_Scholar_logo.svg" width="26" height="26" title="Google Scholar Link">
     </a>
 
     <!-- ResearchGate -->
-    <a href="https://www.researchgate.net/profile/Sonjoy-Majumder-2"
+    <a href="https://www.researchgate.net/profile/Sonjoy-Majumder-2" class="pi-icon"
        target="_blank" title="ResearchGate" rel="noopener">
       <img src="assets/icons/ResearchGate.svg" width="26" height="26" title="ResearchGate Link">
+    </a>
+    <!-- Linkedin -->
+    <a href="https://www.linkedin.com/in/sonjoy-majumder-b9789747/"
+            class="pi-icon" target="_blank" rel="noopener" title="Linkedin">
+      <img src="assets/icons/linkedin.webp" title="Linkedin Link">
     </a>
 
   </div>
@@ -154,7 +159,7 @@ Prof. Majumder's research interests lie in the theoretical investigation of cond
     <div class="container">
       <div class="row" id="formerMember">
       </div>
-      <h4 class="text-dark py-3">Visitor</h4>
+      <div class="h2 text-dark pt-3">Former Visitor</div>
       <div class="row" id="formerMemberVisitor">
       </div>
     </div>
@@ -293,19 +298,18 @@ Prof. Majumder's research interests lie in the theoretical investigation of cond
 
       var row = `
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
-<div class="card bg-present-card h-100">
-    <img src=${data[i].photo} class=" p-2 img-fluid rounded-circle full-width" alt="${data[i].Name}"">
-    <div class="card-body text-center">
-        <h5 class="card-title">${data[i].Name}</h5>
-        <p  style="font-size:80%;color:rgb(43, 98, 170)">${dura}</p>
-        <p class="card-text" style="color:rgb(26, 66, 80)">${data[i].position}</p>
-        <p class="card-text">${data[i].interests}</p>
-        <a class="text-lg text-email text-decoration-none">${data[i].Email}</a>
-        <div class="d-flex justify-content-center gap-3 mt-1">${weblink}</div>
- 
-    </div>
-</div>
-</div>
+              <div class="card bg-present-card h-100">
+                  <img loading="lazy" src=${data[i].photo} class=" p-2 img-fluid rounded-circle full-width" alt="${data[i].Name}"">
+                  <div class="card-body text-center">
+                      <h5 class="card-title">${data[i].Name}</h5>
+                      <p  style="font-size:80%;color:rgb(43, 98, 170)">${dura}</p>
+                      <p class="card-text" style="color:rgb(26, 66, 80)">${data[i].position}</p>
+                      <p class="card-text">${data[i].interests}</p>
+                      <a class="text-lg text-email text-decoration-none">${data[i].Email}</a>
+                      <div class="d-flex justify-content-center gap-3 mt-1">${weblink}</div>
+                  </div>
+              </div>
+            </div>
 `
       if (data[i].Visitor == "yes") {
         listPresentVisitor.innerHTML += row

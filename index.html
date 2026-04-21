@@ -6,8 +6,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AMQI</title>
-
+  <title>AMQI | Home </title>
+  <link rel="icon" type="image/png" href="assets/icons/logo.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg" /> 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -73,22 +74,30 @@
   </nav>
   <!-- <div style="height: 50px;"></div> -->
 
-  <section class="p-5 bg-intro mt-5" id="intro">
-    <div class="container">
-      <div class="h1 text-light text-center">
-        Atomic, Molecular & Quantum Information Group
-      </div>
-      <p class="h5 text-center text-light">
-        Department of Physics, Indian Institute of Technology Kharagpur
-      </p>
-      <p class="text-center text-light">
-        Welcome to the website of our theoretical group!
-      </p>
-    </div>
-  </section>
+  <section id="intro" class="p-5 bg-intro mt-5">
 
-  <section class="p-2 bg-intro-topics">
-    <div class="h1 text-center text-dark p-3">Recent Updates</div>
+  <div class="container text-center hero-content">
+
+    <h1 class="hero-title">
+      Atomic, Molecular & Quantum Information Group
+    </h1>
+
+    <p class="hero-subtitle">
+      Department of Physics, Indian Institute of Technology Kharagpur
+    </p>
+
+    <!-- <div class="hero-divider"></div>
+
+    <p class="hero-keywords">
+      Ultracold Atoms · Many-Body Physics · Quantum Information · Quantum Algorithms · Topological Phases
+    </p> -->
+
+  </div>
+
+</section>
+
+  <section class="p-3 pb-5 bg-intro-topics">
+    <div class="h1 text-center text-dark p-3 fw-bold">Recent Updates</div>
     <div class="container pt-4">
       <div class="carousel-container">
         <div id="recenthl" class="carousel slide" data-bs-ride="carousel">
@@ -109,14 +118,88 @@
         </div>
       </div>
     </div>
-    <div style="height: 100px;"></div>
   </section>
 
+<section id="about" class="about-section">
+
+  <div class="container about-container">
+
+    <!-- LEFT -->
+    <div class="about-left">
+
+      <h2 class="about-title">About Us</h2>
+
+      <p class="about-desc">
+        The Atomic, Molecular and Quantum Information (AMQI) Group at the Department of Physics, IIT Kharagpur is a theoretical research group focused on advancing quantum physics and emerging quantum technologies. 
+        Our work spans areas such as ultra-cold atoms and Bose–Einstein condensation, quantum information and computation, many-body physics, and high-energy and astrophysics, bringing together fundamental ideas and emerging directions in quantum science.<br>We encourage collaborations and welcome interested students and researchers to get in touch.
+      </p>
+
+      <h4 class="pi-heading">Group Head</h4>
+
+      <!-- PI CARD -->
+      <div class="pi-card-advanced">
+
+        <img src="assets/img/SM_1.png" title="Group Head" class="pi-img-advanced" />
+
+        <div class="pi-content">
+
+          <h4>Prof. Sonjoy Majumder</h4>
+          <p>Professor, Department of Physics <br>Indian Institute of Technology Kharagpur</p>
+
+          <!-- EMAIL -->
+          <a href="mailto:sonjoym@phy.iitkgp.ac.in" class="pi-email">
+            <i class="bi bi-envelope-fill"></i> sonjoym@phy.iitkgp.ac.in
+          </a>
+
+          <!-- LINKS -->
+          <div class="pi-social mt-3 d-flex gap-3 align-items-center">
+
+          <!-- Google Scholar -->
+          <a href="https://scholar.google.com/citations?user=EQMenpkAAAAJ&hl=en"
+            target="_blank" rel="noopener"
+            class="pi-icon" title="Google Scholar">
+            <img src="assets/icons/Google_Scholar_logo.svg" title="GoogleScholar Logo">
+          </a>
+
+          <!-- ResearchGate -->
+          <a href="https://www.researchgate.net/profile/Sonjoy-Majumder-2"
+            target="_blank" rel="noopener"
+            class="pi-icon" title="ResearchGate">
+            <img src="assets/icons/ResearchGate.svg" title="ReseaechGate Logo">
+          </a>
+
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/in/sonjoy-majumder-b9789747/"
+            class="pi-icon" target="_blank" rel="noopener" title="Linkedin">
+            <img src="assets/icons/linkedin.webp" title="Linkedin Link">
+          </a>
+
+        </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="about-right">
+      <div class="about-image">
+
+  <img id="img1" src="Gallery/2026/PJ_Prof_Group1.jpeg" title="GroupPhoto 1" class="img-layer active">
+  <img id="img2" src="Gallery/SM_group.jpg" title="GroupPhoto 2" class="img-layer">
+
+</div>
+    </div>
+
+  </div>
+
+</section>
 
 <!-- Research Section -->
-<section class="container-fluid bg-present mt-10">
+<section class="container-fluid bg-present mt-10 bg-intro-topics">
   <style>
-    .research-box {
+.research-box {
       background-color: #73797b; 
       border-radius: 22px;
       padding: 22px 24px;
@@ -158,7 +241,7 @@
   </style>
 
   <div class="container pt-3 pb-5"> 
-    <div class="h1 text-center text-dark p-3">Research</div>
+    <div class="h1 text-center text-dark p-3 fw-bold">Research Areas</div>
 
     <!-- 1 col on mobile, 2 on md, 3 on lg; equal height per row -->
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -228,7 +311,7 @@
 
 
 <!-- FOOTER -->
-<footer class="bg-dark text-light pt-4 pb-3">
+<footer class="bg-dark text-light pt-4 pb-3 ">
   <div class="container">
     <div class="row g-4 text-center">
 
@@ -294,7 +377,47 @@
   </div>
 </footer>
   <script src="assets/js/recentUpdate.js"></script>
+<script>
+window.addEventListener("load", function () {
 
+  const images = [
+    "Gallery/2026/PJ_Prof_Group1.jpeg",
+    "Gallery/2026/Narendra_01.jpeg",
+    "Gallery/2026/Arpana_DefenceP1.jpeg",
+    "Gallery/2025_group_photo.jpeg",
+    "Gallery/SM_group.jpg",
+  
+
+  ];
+
+  let index = 0;
+
+  const img1 = document.getElementById("img1");
+  const img2 = document.getElementById("img2");
+
+  let current = img1;
+  let next = img2;
+
+  setInterval(() => {
+
+    index = (index + 1) % images.length;
+
+    // load next image BEFORE fade
+    next.src = images[index];
+
+    // crossfade
+    next.classList.add("active");
+    current.classList.remove("active");
+
+    // swap references
+    let temp = current;
+    current = next;
+    next = temp;
+
+  }, 5000);
+
+});
+</script>
 </body>
 
 </html>

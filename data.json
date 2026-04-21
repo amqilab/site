@@ -1,5 +1,14 @@
 [
       {
+        "Name": "Aindrila Maiti",
+        "Email": "aindrilamaiti12@gmail.com",
+        "dateOfStart": "Dec 31, 2025",
+        "position": "PhD Scholar, Physics",
+        "interests": "Light Matter Interaction",
+        "photo": "./assets/img/aindrila_maity.png",
+        "linkedin":"https://www.linkedin.com/in/aindrila-maiti-33207a214"
+    },
+      {
         "Name": "Sudipta Majumder",
         "Email": "sudiptam.iitkgp.phy@gmail.com",
         "dateOfStart": "July 3, 2025",
@@ -102,30 +111,6 @@
         "photo": "./assets/img/Shubham_Verma.jpg"
     },
     {
-        "Name": "Tanima Mondal ",
-        "Email": "mtanima14@gmail.com",
-        "dateOfStart": "Jan 2, 2020",
-        "position": "PhD Scholar, Physics (PMRF)",
-        "interests": "High Energy Astrophysics",
-        "photo": "./assets/img/mtanima.jpg",
-        "ResearchGate": "https://www.researchgate.net/profile/Tanima_Mondal/research",
-        "GoogleScholar": "https://scholar.google.com/citations?user=PS2cdCQAAAAJ&hl=en",
-        "linkedin": "https://www.linkedin.com/in/tanima-mondal-5480a21b6/",
-        "webpage": "https://tanima14.github.io/mtanima.github.io/"
-    },
-    {
-        "Name": "Sabyasachi Mukhopadhyay",
-        "Email": "sabyasachi@kgpian.iitkgp.ac.in",
-        "dateOfStart": "Aug 1, 2022",
-        "position": "PhD Scholar, Centre For Computational And Data Sciences, IIT Kharagpur",
-        "interests": "Biomedical Optical Imaging",
-        "photo": "./assets/img/bsabyasachi.jpg",
-        "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Mukhopadhyay-4/3",
-        "GoogleScholar": "https://scholar.google.co.in/citations?user=riMLn_YAAAAJ&hl=en",
-        "webpage": "https://sites.google.com/view/sabyasachimukhopadhyay/home?authuser=0",
-        "linkedin": "https://www.linkedin.com/in/sabyasachi-mukhopadhyay-303a1027/"
-    },
-    {
         "Name": "Deepu Singh ",
         "Email": "ecc1603009@gmail.com",
         "dateOfStart": "Jul 1, 2023",
@@ -175,6 +160,34 @@
         "linkedin": "https://www.linkedin.com/in/hari-sadhan-ghosh-737b04221"
     },
     {
+        "Name": "Tanima Mondal ",
+        "Email": "mtanima14@gmail.com",
+        "dateOfStart": "Jan 2, 2020",
+        "graduated": "yes",
+        "dateOfCompletion": "Mar 17, 2026",
+        "position": "Postdoc, ARIES, India <br> (Former PMRF Fellow)",
+        "interests": "High Energy Astrophysics",
+        "photo": "./assets/img/mtanima.jpg",
+        "ResearchGate": "https://www.researchgate.net/profile/Tanima_Mondal/research",
+        "GoogleScholar": "https://scholar.google.com/citations?user=PS2cdCQAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/tanima-mondal-5480a21b6/",
+        "webpage": "https://tanima14.github.io/mtanima.github.io/"
+    },
+    {
+        "Name": "Sabyasachi Mukhopadhyay",
+        "Email": "sabyasachi@kgpian.iitkgp.ac.in",
+        "dateOfStart": "Aug 1, 2022",
+        "graduated": "yes",
+        "dateOfCompletion": "Apr 7, 2026",
+        "position": "Upskilling Program Manager, <br>IIT Kharagpur AI4ICPS I Hub Foundation",
+        "interests": "Biomedical Optical Imaging",
+        "photo": "./assets/img/bsabyasachi.jpg",
+        "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Mukhopadhyay-4/3",
+        "GoogleScholar": "https://scholar.google.co.in/citations?user=riMLn_YAAAAJ&hl=en",
+        "webpage": "https://sites.google.com/view/sabyasachimukhopadhyay/home?authuser=0",
+        "linkedin": "https://www.linkedin.com/in/sabyasachi-mukhopadhyay-303a1027/"
+    },
+    {
         "Name": "Harshdeep Singh",
         "Email": "harshdeeps036@gmail.com",
         "dateOfStart": "Aug 2, 2021",
@@ -192,7 +205,7 @@
         "dateOfStart": "Sep 8, 2020",
         "graduated": "yes",
         "dateOfCompletion": "Nov 17, 2025",
-        "position": "PhD Scholar, Physics (PMRF)",
+        "position": "Postdoc, RIKEN CEMS, Japan",
         "interests": "Ultracold atoms, Spinor BECs",
         "photo": "./assets/img/ArpanaSaboo.jpeg",
         "ResearchGate": "https://www.researchgate.net/profile/Arpana-Saboo",
