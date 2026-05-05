@@ -1,5 +1,24 @@
 [
       {
+        "Name": "Sonali Gangwar",
+        "Email": "swarup69190@gmail.com",
+        "dateOfStart": "Apr 28, 2026",
+        "position": "Postdoctoral Fellow, CCDS",
+        "interests": "Quantum gases, Bose-Einstein condensation, Disorder Systems, Anderson Localization, Time Crystals ",
+        "photo": "./assets/img/Swarup_Sarkar.webp",
+        "GoogleScholar":"https://scholar.google.com/citations?user=ytRrOhoAAAAJ&hl=en"
+    },
+      {
+        "Name": "Sonali Gangwar",
+        "Email": "sonali@phy.iitkgp.ac.in",
+        "dateOfStart": "Jan 2, 2026",
+        "position": "Postdoctoral Fellow, Physics",
+        "interests": "Bose-Einstein Condensates, Quantum Droplets, Spinor BEC",
+        "photo": "./assets/img/Sonali_Gangwar.jpg",
+        "ResearchGate": "https://www.researchgate.net/profile/Sonali-Gangwar",
+        "linkedin":"https://www.linkedin.com/in/sonali-gangwar-283a8634a"
+    },
+      {
         "Name": "Aindrila Maiti",
         "Email": "aindrilamaiti12@gmail.com",
         "dateOfStart": "Dec 31, 2025",
@@ -92,6 +111,7 @@
         "position": "PhD Scholar, Physics",
         "interests": "Atomic, molecular and optical physics",
         "photo": "./assets/img/susovan_giri.jpg",
+        "ResearchGate":"https://www.researchgate.net/profile/Susovan-Giri",
         "linkedin": "https://www.linkedin.com/in/susovan-giri-83125b326/"
     },
 {
@@ -144,6 +164,7 @@
         "position": "PhD Scholar, Physics (PMRF)",
         "interests": "Quantum Computation",
         "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Chakraborty-11",
+        "GoogleScholar": "https://scholar.google.com/citations?user=UY1twl4AAAAJ&hl=en",
         "photo": "./assets/img/SabyasachiChakraborty.jpg",
         "linkedin": "https://www.linkedin.com/in/sabyasachi-chakraborty-8b6404192/"
     },
