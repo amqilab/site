@@ -1,5 +1,14 @@
 [
       {
+        "Name": "Manohar Ghosh",
+        "Email": "ghoshmano007@gmail.com",
+        "dateOfStart": "Jul 8, 2026",
+        "position": "Research Scholar, Physics",
+        "interests": "Quantum computing",
+        "photo": "./assets/img/Manohar.webp",
+        "linkedin":"https://www.linkedin.com/in/manohar-ghosh-259009289"
+    },
+      {
         "Name": "Dr. Swarup Kanti Sarkar",
         "Email": "swarup69190@gmail.com",
         "dateOfStart": "Apr 28, 2026",
@@ -33,7 +42,7 @@
         "dateOfStart": "July 3, 2025",
         "position": "PhD Scholar, Physics",
         "interests": "Quantum Machine Learning",
-        "photo": "./assets/img/sudiptam.png",
+        "photo": "./assets/img/sudiptam.webp",
         "ResearchGate":"https://www.researchgate.net/profile/Sudipta-Majumder-3",
         "webpage":"https://sudipta-on.github.io/",
         "linkedin":"https://www.linkedin.com/in/sudipta-majumder/"
@@ -53,6 +62,7 @@
         "position": "PhD Scholar, Physics",
         "interests": "Quantum Information Theory, Quantum Computation",
         "photo": "./assets/img/sandipanh.png",
+        "webpage": "https://sandipanhazraphysics.github.io/sandipanhazra/",
         "ResearchGate":"https://www.researchgate.net/profile/Sandipan-Hazra-3",
         "linkedin":"https://www.linkedin.com/in/sandipan-hazra"
     },
@@ -95,15 +105,6 @@
         "ResearchGate":"https://www.researchgate.net/profile/Abhinaba-Pahari/",
         "linkedin":"https://www.linkedin.com/in/abhinabapahari"
     },
-    {
-        "Name": "Dwij Brahmbhatt",
-        "Email": "dwijbecomesdoctor25@kgpian.iitkgp.ac.in",
-        "dateOfStart": "July 2, 2025",
-        "position": "PhD Scholar, Physics",
-        "interests": "Quantum Machine Learning",
-        "photo": "./assets/img/dwij.png",
-        "linkedin":"https://www.linkedin.com/in/dwij-brahmbhatt-798708208"
-    },
       {
         "Name": "Susovan Giri",
         "Email": "iamsusovangiri@gmail.com",
@@ -137,6 +138,7 @@
         "position": "Ph.D scholar, Physics",
         "interests": "Atomic, molecular and optical physics",
         "linkedin":"https://www.linkedin.com/in/deepu-singh-yadav-85982325b/",
+        "GoogleScholar":"https://scholar.google.com/citations?user=8zTjSWMAAAAJ&hl=en",
         "photo": "./assets/img/Deepu_Singh.jpg"
     },
     {
@@ -200,7 +202,7 @@
         "dateOfStart": "Aug 1, 2022",
         "graduated": "yes",
         "dateOfCompletion": "Apr 7, 2026",
-        "position": "Upskilling Program Manager, <br>IIT Kharagpur AI4ICPS I Hub Foundation",
+        "position": "Teaching Fellow, Dept of Computer Science, IIT Kharagpur",
         "interests": "Biomedical Optical Imaging",
         "photo": "./assets/img/bsabyasachi.jpg",
         "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Mukhopadhyay-4/3",
@@ -292,7 +294,7 @@
         "dateOfStart": "Jun 1, 2016",
         "graduated": "yes",
         "dateOfCompletion": "Jul, 2024",
-        "position": "Visiting Research Scholar (Vidysagar University), Assistant Teacher",
+        "position": "Assistant Teacher, Antri S.V.A High School",
         "interests": "Atomic physics, quantum physics",
         "ResearchGate": "https://www.researchgate.net/publication/323410491_Accurate_estimations_of_electromagnetic_transitions_of_Sn_IV_for_stellar_and_interstellar_media",
         "photo": "./assets/img/swapan_biswas.png",
@@ -304,7 +306,7 @@
         "dateOfStart": "Jul 1, 2015",
         "graduated": "yes",
         "dateOfCompletion": "Jul 22, 2021",
-        "position": "Postdoc, Lund University, Sweden",
+        "position": "JSPS PostDoc, University of Electro-Communications, Japan",
         "interests": "Supersolid, few-body physics, BEC",
         "ResearchGate": "https://www.researchgate.net/profile/Koushik-Mukherjee-3",
         "GoogleScholar": "https://scholar.google.com/citations?user=fvOrnlUAAAAJ&hl=en",
@@ -364,7 +366,7 @@
         "dateOfStart": "Oct 1, 2011",
         "graduated": "yes",
         "dateOfCompletion": "Apr 1, 2016",
-        "position": "Postdoctoral Research Fellow, Hebrew University of Jerusalem, Israel",
+        "position": "Scientific Researcher, University of Leeds, UK",
         "interests": "Computational atomic physics, Computational Chemistry, Electronic structure theory",
         "GoogleScholar": "https://scholar.google.com/citations?user=VYtXhpoAAAAJ&hl=en",
         "photo": "./assets/img/sourav_roy.jpg"
@@ -375,7 +377,7 @@
         "dateOfStart": "2008",
         "graduated": "yes",
         "dateOfCompletion": "2011",
-        "position": "Associate Professor, Indian Institute of Technology Bombay, India",
+        "position": "Professor, Indian Institute of Technology Bombay, India",
         "interests": "Attosecond Science, Ultrafast X-ray Science, Quantum Technologies",
         "GoogleScholar": "https://scholar.google.com/citations?hl=en&user=fpjJfUIAAAAJ&view_op=list_works&sortby=pubdate",
         "ResearchGate": "https://www.researchgate.net/profile/Gopal-Dixit-5",
