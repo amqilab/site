@@ -1,12 +1,20 @@
 [
-      {
-        "Name": "Manohar Ghosh",
-        "Email": "ghoshmano007@gmail.com",
-        "dateOfStart": "Jul 8, 2026",
-        "position": "Research Scholar, Physics",
-        "interests": "Quantum computing",
-        "photo": "./assets/img/Manohar.webp",
-        "linkedin":"https://www.linkedin.com/in/manohar-ghosh-259009289"
+    {
+      "Name": "Sohini Dey",
+      "Email": "sohinidey971@gmail.com",
+      "dateOfStart": "Jul 23, 2026",
+      "position": "Research Scholar, CCDS",
+      "interests": "Quantum Computation",
+      "photo": "./assets/img/sohini_dey.jpeg"
+    },
+    {
+      "Name": "Manohar Ghosh",
+      "Email": "ghoshmano007@gmail.com",
+      "dateOfStart": "Jul 8, 2026",
+      "position": "Research Scholar, Physics",
+      "interests": "Quantum computing",
+      "photo": "./assets/img/Manohar.webp",
+      "linkedin":"https://www.linkedin.com/in/manohar-ghosh-259009289"
     },
       {
         "Name": "Dr. Swarup Kanti Sarkar",
@@ -53,7 +61,8 @@
         "dateOfStart": "July 1, 2025",
         "position": "PhD Scholar, Physics",
         "interests": "Quantum Computing",
-        "photo": "./assets/img/vijayk.png"
+        "photo": "./assets/img/vijayk.png", 
+         "linkedin":"https://www.linkedin.com/in/vijay-kumar-a9b0a6290"
     },
     {
         "Name": "Sandipan Hazra",
