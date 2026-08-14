@@ -1,6 +1,14 @@
 [
   {
     "year": 2026,
+    "title": "Robust Genuine Multipartite Entanglement in Two Walker Quantum Walks",
+    "authors": "Sandipan Hazra, Tamoghna Das, Sougato Bose, Sonjoy Majumder",
+    "journal": "arXiv",
+    "doi": "https://doi.org/10.48550/arXiv.2608.13338",
+    "doiText": "DOI: arXiv:2608.13338"
+  },
+  {
+    "year": 2026,
     "title": "Marked vertex search on disordered graphs with Rosenzweig-Porter phases",
     "authors": "Sabyasachi Chakraborty, Tilen Cadez, Sonjoy Majumder, Rohit Kishan Ray",
     "journal": "arXiv",
