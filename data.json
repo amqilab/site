@@ -1,5 +1,16 @@
 [
     {
+      "Name": "Partha Das",
+      "Email": "parthadas.physics@gmail.com",
+      "dateOfStart": "Aug 31, 2026",
+      "position": "Postdoctoral Fellow, Physics",
+      "interests": "Structured and vector beams, Superresolution, Atomic and quantum dot system",
+      "photo": "./assets/img/ParthaPDF.jpg",
+      "GoogleScholar": "https://scholar.google.com/citations?hl=en&user=fCu51HcAAAAJ",
+      "ResearchGate": "https://www.researchgate.net/profile/Partha-Das-21",
+      "linkedin": "https://www.linkedin.com/in/partha-das-80a158343/"
+    },
+    {
       "Name": "Sohini Dey",
       "Email": "sohinidey971@gmail.com",
       "dateOfStart": "Jul 23, 2026",
@@ -211,7 +222,7 @@
         "dateOfStart": "Aug 1, 2022",
         "graduated": "yes",
         "dateOfCompletion": "Apr 7, 2026",
-        "position": "Teaching Fellow, Dept of Computer Science, IIT Kharagpur",
+        "position": "Teaching Fellow, Computer Science and Engineering Department, IIT Kharagpur",
         "interests": "Biomedical Optical Imaging",
         "photo": "./assets/img/bsabyasachi.jpg",
         "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Mukhopadhyay-4/3",
