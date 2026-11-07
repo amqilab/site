@@ -141,7 +141,10 @@
         "dateOfStart": "Aug 2, 2024",
         "position": "PhD Scholar, Physics",
         "interests": "Ultracold quantum gases, Bose Einstein condensates ",
-        "photo": "./assets/img/vipin.jpg"
+        "photo": "./assets/img/vipin.jpg",
+        "ResearchGate":"https://www.researchgate.net/profile/Vipin-3",
+        "linkedin": "https://www.linkedin.com/in/vipin-bohra-181a37165/",
+        "GoogleScholar": "https://scholar.google.co.in/citations?hl=en&user=KyMl1FkAAAAJ"
     },
   {
         "Name": "Shubham Verma",
@@ -159,6 +162,7 @@
         "interests": "Atomic, molecular and optical physics",
         "linkedin":"https://www.linkedin.com/in/deepu-singh-yadav-85982325b/",
         "GoogleScholar":"https://scholar.google.com/citations?user=8zTjSWMAAAAJ&hl=en",
+        "ResearchGate": "https://www.researchgate.net/profile/Deepu-Singh-2",
         "photo": "./assets/img/Deepu_Singh.jpg"
     },
     {
@@ -168,6 +172,7 @@
         "position": "Ph.D scholar, Physics",
         "interests": "Atomic, molecular and optical physics",
         "linkedin": "https://www.linkedin.com/in/ranit-bose-768109215/",
+        "ResearchGate": "https://www.researchgate.net/profile/Ranit-Bose",
         "photo": "./assets/img/Ranit_Bose.jpg"
     },
     {
@@ -222,7 +227,7 @@
         "dateOfStart": "Aug 1, 2022",
         "graduated": "yes",
         "dateOfCompletion": "Apr 7, 2026",
-        "position": "Teaching Fellow, Computer Science and Engineering Department, IIT Kharagpur",
+        "position": "Outreach Teaching Fellow, Computer Science and Engineering Department, IIT Kharagpur",
         "interests": "Biomedical Optical Imaging",
         "photo": "./assets/img/bsabyasachi.jpg",
         "ResearchGate": "https://www.researchgate.net/profile/Sabyasachi-Mukhopadhyay-4/3",
@@ -409,7 +414,7 @@
         "dateOfStart": "Jul 1, 2009",
         "graduated": "yes",
         "dateOfCompletion": "Oct 1, 2014",
-        "position": "Assistant Professor, ViT-AP University, India",
+        "position": "Associate Professor, ViT-AP University, India",
         "interests": "Theoretical Atomic and Molecular Physics, Spectroscopy, Quantum Chemistry, Computational Chemistry",
         "ResearchGate": "https://www.researchgate.net/profile/Narendra-Dutta-2",
         "GoogleScholar": "https://scholar.google.com/citations?user=TgyXV4UAAAAJ&hl=en",

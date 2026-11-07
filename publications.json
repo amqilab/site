@@ -1,6 +1,14 @@
 [
   {
     "year": 2026,
+    "title": "Kelvin-Helmholtz and counter-superflow instabilities driven by differential effective rotation in a three-component Bose-Einstein condensate",
+    "authors": "Susovan Giri, Arpana Saboo, Hari Sadhan Ghosh, Vipin, Sonjoy Majumder",
+    "journal": "Physical Review A",
+    "doi": "https://doi.org/10.1103/1kgv-h6pw",
+    "doiText": "DOI: Phys. Rev. A 114, 053306"
+  },
+  {
+    "year": 2026,
     "title": "Robust Genuine Multipartite Entanglement in Two Walker Quantum Walks",
     "authors": "Sandipan Hazra, Tamoghna Das, Sougato Bose, Sonjoy Majumder",
     "journal": "arXiv",
@@ -30,14 +38,6 @@
     "journal": "Journal of High Energy Astrophysics",
     "doi": "https://doi.org/10.1016/j.jheap.2026.100636",
     "doiText": "DOI: 10.1016/j.jheap.2026.100636"
-  },
-  {
-    "year": 2026,
-    "title": "Rotation-triggered Kelvin-Helmholtz and counter-superflow instabilities in a three-component Bose-Einstein condensate",
-    "authors": "Susovan Giri, Arpana Saboo, Hari Sadhan Ghosh, Vipin, Sonjoy Majumder",
-    "journal": "arXiv",
-    "doi": "https://doi.org/10.48550/arXiv.2603.19207",
-    "doiText": "DOI: arXiv:2603.19207"
   },
   {
     "year": 2026,
